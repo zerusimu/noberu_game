@@ -1,0 +1,1619 @@
+{
+  "top": {
+    "text": "薬屋見習いの冒険",
+    "background": "haikei2.png",
+    "characters": [
+    ],
+    
+    "choices": [
+      {"text": "最初から", "next": "start"},
+      {"text": "2章から", "next": "2syou1"},
+      {"text": "3章から", "next": "3syou1"},
+      {"text": "4章から", "next": "4syou1"},
+      {"text": "後書き", "next": "atogaki1"},  
+        {"text": "学習コラム", "next": "gakusyuu"}      
+    ]
+  },
+
+
+
+  
+
+  "start": {
+    "text": "錬金術師や魔法使いや勇者になる人もいるこの都市、ヴェルンで生まれた。だけど、私は何をやってもダメ。今できる事といえば、薬草を採取する事だけ・・・。薬草を配合してポーションを作れるようになりたいけど、まだ上手く作れない。いつか、みんなのためになれる人になりたい。そのために、ここの道具屋で働いている。もう２年経つけどまだ薬草の知識しかない",
+    "background": "haikei2.png",
+
+    "characters": [
+      { "image": "syuzinkou2.png", "position": "right" , "name": "リナ"}
+    ],
+    
+    "choices": [
+      {"text": "次のページに進む", "next": "start2"}
+    ]
+  },
+
+
+
+
+  "start2": {
+    "text": "そんなある日の事だった。この平和がいつまでも続くものだと思ってた。この都市で１番の勇者が魔王にやられたのだ。装備もしっかりしていた、能力も勇者の中では桁違いだった。なのに、その勇者はやられてしまった。回復薬もパーティー編成もバッチリだった。でも、後ろにいる魔法使いを庇ってやられてしまったらしい。やばい・・・ここにも攻めてくるかもしれない",
+    "background": "haikei2.png",
+    "characters": [
+      { "image": "syuzinkou2.png", "position": "right" , "name": "リナ"}
+    ],
+    "choices": [
+      {"text": "次のページに進む", "next": "start3"}
+    ]
+  },
+  
+  "start3": {
+    "text": "「魔王が攻めてくるかもしれないだと！？どうしたら良いんだ。……そうだ、誰か異世界から勇者を召喚しろー！魔王の手から逃れられるほど強力な勇者を召喚するんだ！魔王を倒せたら１億ジュエルの報酬を用意する。緊急事態だ、誰か頼む」",
+    "background": "haikei2.png",
+    "characters": [
+      { "image": "syuzinkou2.png", "position": "right" , "name": "リナ"},
+      { "image": "ousama1.png", "position": "right" , "name": "王様", "speaking": true}
+    ],
+    "choices": [
+      {"text": "次のページに進む", "next": "start4"}
+    ]
+  },
+  
+"start4": {
+    "text": "「勇者の召喚だって！？もしかしたら、私のお師匠様なら、勇者を召喚できるかも知れない！今は道具屋の店長だけど、昔は錬金術召喚士として数々の苦難を乗り越えてきたって言ってたし。お師匠様、魔王を倒すほどの勇者を召喚することってできる？この都市で最強の錬金術召喚士のお師匠様なら、きっと」",
+    "background": "haikei2.png",
+    "characters": [
+      { "image": "syuzinkou2.png", "position": "right" , "name": "リナ", "speaking": true}
+    ],
+    "choices": [
+      {"text": "次のページに進む", "next": "start5"}
+    ]
+  },
+  
+"start5": {
+    "text": "「話は分かった。でも、勇者がやられたんだろう？だから、勇者を召喚しても魔王を倒せないと思ってる」",
+    "background": "haikei2.png",
+    "characters": [
+      { "image": "syuzinkou2.png", "position": "right" ,"name": "リナ" },
+      { "image": "sisyou1.png", "position": "right" , "name": "師匠",  "speaking": true}
+    ],
+    "choices": [
+      {"text": "次のページに進む", "next": "start6"}
+    ]
+  },
+  
+  
+  "start6": {
+    "text": "「勇者ではダメ？となると、打つてなしですか？」",
+    "background": "haikei2.png",
+    "characters": [
+      { "image": "syuzinkou2.png", "position": "right" ,"name": "リナ",  "speaking": true },
+      { "image": "sisyou1.png", "position": "right" , "name": "師匠"}
+    ],
+    "choices": [
+      {"text": "次のページに進む", "next": "start7"}
+    ]
+  },
+  
+
+  "start7": {
+    "text": "「そうでもない。ただ、動物では魔王を倒せてもその後言うことを聞かない可能性もあるからダメ。機械は命を宿しておらず召喚出来ないからダメ。人間の最善手は勇者になって勇者では魔王を倒せないからダメ。となれば、召喚するのは一択だ」",
+    "background": "haikei2.png",
+    "characters": [
+      { "image": "syuzinkou2.png", "position": "right" ,"name": "リナ" },
+      { "image": "sisyou1.png", "position": "right" , "name": "師匠",  "speaking": true}
+    ],
+    "choices": [
+      {"text": "次のページに進む", "next": "start8"}
+    ]
+  },
+  
+  "start8": {
+    "text": "エルフとかですか？もしくはドワーフ？別種族の者だと、やっぱり魔王側に着いちゃうんでしょうか？",
+    "background": "haikei2.png",
+   "characters": [
+      { "image": "syuzinkou2.png", "position": "right" ,"name": "リナ",  "speaking": true },
+      { "image": "sisyou1.png", "position": "right" , "name": "師匠"}
+    ],
+    "choices": [
+      {"text": "次のページに進む", "next": "start9"}
+    ]
+  },
+  
+  "start9": {
+    "text": "「別種族も魔王を良く思ってない連中も多い。だが今の魔王は、はるかに強い。召喚すべきは、神だろう。」",
+    "background": "haikei2.png",
+    "characters": [
+      { "image": "syuzinkou2.png", "position": "right" ,"name": "リナ"},
+      { "image": "sisyou1.png", "position": "right" , "name": "師匠",  "speaking": true }
+    ],
+    "choices": [
+      {"text": "次のページに進む", "next": "start10"}
+    ]
+  },
+  
+  "start10": {
+    "text": "「神！？すごい、さすがお師匠様です。それなら勝てそうです！」",
+    "background": "haikei2.png",
+    "characters": [
+      { "image": "syuzinkou2.png", "position": "right" ,"name": "リナ",  "speaking": true },
+      { "image": "sisyou1.png", "position": "right" , "name": "師匠"}
+    ],
+    "choices": [
+      {"text": "次のページに進む", "next": "start11"}
+    ]
+  },
+  
+  "start11": {
+    "text": "「ただし、神は実態を持たず、体は転送出来ない。その代わりに神の人格を直接的に身体へと授けることになる。」",
+    "background": "haikei2.png",
+    "characters": [
+      { "image": "syuzinkou2.png", "position": "right" ,"name": "リナ"},
+      { "image": "sisyou1.png", "position": "right" , "name": "師匠",  "speaking": true }
+    ],
+    "choices": [
+      {"text": "次のページに進む", "next": "start12"}
+    ]
+  },
+  
+  "start12": {
+    "text": "「神の人格を宿す？じゃあ、弱者に神を宿しちゃったら魔王は倒せないじゃないですか？」",
+    "background": "haikei2.png",
+    "characters": [
+      { "image": "syuzinkou2.png", "position": "right" ,"name": "リナ",  "speaking": true },
+      { "image": "sisyou1.png", "position": "right" , "name": "師匠"}
+    ],
+    "choices": [
+      {"text": "次のページに進む", "next": "start13"}
+    ]
+  },
+
+  "start13": {
+    "text": "「誰の体に宿るかは、神に選択肢を委ねた方がいい。魔王を倒した後の事も神は考える事ができる。最善の一手は神のみが知っている」",
+    "background": "haikei2.png",
+    "characters": [
+      { "image": "syuzinkou2.png", "position": "right" ,"name": "リナ"},
+      { "image": "sisyou1.png", "position": "right" , "name": "師匠",  "speaking": true }
+    ],
+    "choices": [
+      {"text": "次のページに進む", "next": "start14"}
+    ]
+  },
+
+  "start14": {
+    "text": "「早速召喚しよう。これが私の最後の錬金召喚になるだろう。神よ、この世界の者で魔王を倒せそうなものはいるか？」",
+    "background": "haikei2.png",
+  "characters": [
+      { "image": "syuzinkou2.png", "position": "right" ,"name": "リナ"},
+      { "image": "sisyou1.png", "position": "right" , "name": "師匠",  "speaking": true }
+    ],
+    "choices": [
+      {"text": "次のページに進む", "next": "start15"}
+    ]
+  },
+
+  "start15": {
+    "text": "「魔王を１００％倒せるとっておきの人物がおるぞ。最適任な奴が」",
+    "background": "haikei2.png",
+    "characters": [
+      { "image": "syuzinkou2.png", "position": "right" ,"name": "リナ"},
+      { "image": "kami1.png", "position": "right" ,"name": "神", "speaking": true },
+      { "image": "sisyou1.png", "position": "right" , "name": "師匠"  }
+    ],
+    "choices": [
+      {"text": "次のページに進む", "next": "start16"}
+    ]
+  },
+
+
+  "start16": {
+    "text": "「おぉ、ぜひその人物を教えてくれ。その者の肉体に同化させる」",
+    "background": "haikei2.png",
+   "characters": [
+      { "image": "syuzinkou2.png", "position": "right" ,"name": "リナ"},
+      { "image": "kami1.png", "position": "right" ,"name": "神" },
+      { "image": "sisyou1.png", "position": "right" , "name": "師匠" , "speaking": true  }
+    ],
+    "choices": [
+      {"text": "次のページに進む", "next": "start17"}
+    ]
+  },
+
+
+  "start17": {
+    "text": "「そこのリナが最適解だ、今後の被害も１番抑えられる。」",
+    "background": "haikei2.png",
+    "characters": [
+      { "image": "syuzinkou2.png", "position": "right" ,"name": "リナ"},
+      { "image": "kami1.png", "position": "right" ,"name": "神", "speaking": true },
+      { "image": "sisyou1.png", "position": "right" , "name": "師匠"  }
+    ],
+    "choices": [
+      {"text": "次のページに進む", "next": "start18"}
+    ]
+  },
+
+  "start18": {
+    "text": "「ええー？私ですか？スライムすら倒せませんよ？まだ、お城を警備する兵士さんや、ハイエルフの方が適任だと思うんですが？」",
+    "background": "haikei2.png",
+    "characters": [
+      { "image": "syuzinkou2.png", "position": "right" ,"name": "リナ", "speaking": true },
+      { "image": "kami1.png", "position": "right" ,"name": "神"},
+      { "image": "sisyou1.png", "position": "right" , "name": "師匠"  }
+    ],
+    "choices": [
+      {"text": "次のページに進む", "next": "start19"}
+    ]
+  },
+
+
+  "start19": {
+    "text": "「その者では、魔王を倒せる確率は万に一つもない。正攻法ではダメなんだ。この役目はお前にしか出来ない」",
+    "background": "haikei2.png",
+    "characters": [
+      { "image": "syuzinkou2.png", "position": "right" ,"name": "リナ"},
+      { "image": "kami1.png", "position": "right" ,"name": "神", "speaking": true },
+      { "image": "sisyou1.png", "position": "right" , "name": "師匠"  }
+    ],
+    "choices": [
+      {"text": "次のページに進む", "next": "start20"}
+    ]
+  },
+
+  "start20": {
+    "text": "「も、もしかして私に勇者になる素質でもあるんですか？」",
+    "background": "haikei2.png",
+    "characters": [
+      { "image": "syuzinkou2.png", "position": "right" ,"name": "リナ", "speaking": true },
+      { "image": "kami1.png", "position": "right" ,"name": "神"},
+      { "image": "sisyou1.png", "position": "right" , "name": "師匠"  }
+    ],
+    "choices": [
+      {"text": "次のページに進む", "next": "start21"}
+    ]
+  },
+
+
+  "start21": {
+    "text": "「そうか、お前は何も知らないんだな。よし、魔王を倒した後もしばらくお前と同行することに決めた。良いな、召喚士よ。」",
+    "background": "haikei2.png",
+    "characters": [
+      { "image": "syuzinkou2.png", "position": "right" ,"name": "リナ"},
+      { "image": "kami1.png", "position": "right" ,"name": "神", "speaking": true },
+      { "image": "sisyou1.png", "position": "right" , "name": "師匠"  }
+    ],
+    "choices": [
+      {"text": "次のページに進む", "next": "start22"}
+    ]
+  },
+
+
+  "start22": {
+    "text": "「合点承知。でりゃぁぁぁぁ！！」",
+    "background": "haikei2.png",
+    "characters": [
+      { "image": "syuzinkou2.png", "position": "right" ,"name": "リナ"},
+      { "image": "kami1.png", "position": "right" ,"name": "神"},
+      { "image": "sisyou1.png", "position": "right" , "name": "師匠" , "speaking": true  }
+    ],
+    "choices": [
+      {"text": "次のページに進む", "next": "start23"}
+    ]
+  },
+
+  "start23": {
+    "text": "薬屋見習いのリナに不思議な力が宿った。これは、最弱だった私の人生を変えた転換期だった。特に肉体に変化はないけど、神と共に進むことになった。なんで私を選んだのかの理由もわからないまま。とりあえず王様の元に魔王を倒しに行くことを伝えに行くのだった。",
+    "background": "haikei2.png",
+    "characters": [
+      { "image": "syuzinkou2.png", "position": "right" ,"name": "リナ"},
+      { "image": "kami1.png", "position": "right" ,"name": "神"},
+      { "image": "sisyou1.png", "position": "right" , "name": "師匠"  }
+    ],
+    "choices": [
+      {"text": "開始画面に戻る", "next": "top"},
+      {"text": "次に進む", "next": "2syou1"}      
+    ]
+  },
+ 
+
+"2syou1": {
+    "text": "「王様、私が魔王を倒します。」",
+    "background": "ousitu1.png",
+    "characters": [
+      { "image": "syuzinkou2.png", "position": "right" ,"name": "リナ", "speaking": true },
+      { "image": "ousama1.png", "position": "right" ,"name": "王様"}
+    ],
+    "choices": [
+      {"text": "次に進む", "next": "2syou2"}      
+    ]
+  },
+ 
+
+"2syou2": {
+  "text": "「お前がか？無理だ、無駄死にするからやめときなさい。」",
+  "background": "ousitu1.png",
+  "characters": [
+    { "image": "syuzinkou2.png", "position": "right" ,"name": "リナ" },
+    { "image": "ousama1.png", "position": "right" ,"name": "王様", "speaking": true}
+  ],
+  "choices": [
+    {"text": "次に進む", "next": "2syou3"}      
+  ]
+},
+
+"2syou3": {
+  "text": "「お師匠様が私に神の人格を宿してくれたんです。これで魔王も勝てる・・・ような気がしています。」",
+  "background": "ousitu1.png",
+  "characters": [
+    { "image": "syuzinkou2.png", "position": "right" ,"name": "リナ","speaking": true },
+    { "image": "ousama1.png", "position": "right" ,"name": "王様"}
+  ],
+  "choices": [
+    {"text": "次に進む", "next": "2syou4"}      
+  ]
+},
+
+"2syou4": {
+  "text": "「神は肉体を手に入れられないからとはいえ、まさかお前のような弱者に着くとは。そんなんでは勝てるものも勝てんだろう。お前のお師匠も何を考えているんだか」",
+  "background": "ousitu1.png",
+  "characters": [
+    { "image": "syuzinkou2.png", "position": "right" ,"name": "リナ"},
+    { "image": "ousama1.png", "position": "right" ,"name": "王様","speaking": true }
+  ],
+  "choices": [
+    {"text": "次に進む", "next": "2syou5"}      
+  ]
+},
+
+"2syou5": {
+  "text": "「私もなぜ神に選ばれたのかよくわかっていません。ですが、神によれば私が最適解だと言ってました。」",
+  "background": "ousitu1.png",
+  "characters": [
+    { "image": "syuzinkou2.png", "position": "right" ,"name": "リナ","speaking": true},
+    { "image": "ousama1.png", "position": "right" ,"name": "王様" }
+  ],
+  "choices": [
+    {"text": "次に進む", "next": "2syou6"}      
+  ]
+},
+
+"2syou6": {
+  "text": "「神も何を考えているんだかわからんな。だがお前では魔王の前にスライムすら倒せないのであろう？まずは一緒に冒険してくれる仲間がいた方が良かろう？」",
+  "background": "ousitu1.png",
+  "characters": [
+    { "image": "syuzinkou2.png", "position": "right" ,"name": "リナ"},
+    { "image": "ousama1.png", "position": "right" ,"name": "王様" ,"speaking": true}
+  ],
+  "choices": [
+    {"text": "次に進む", "next": "2syou7"}      
+  ]
+},
+
+
+"2syou7": {
+  "text": "「確かに。でも私は仲間らしい仲間なんていません。」",
+  "background": "ousitu1.png",
+  "characters": [
+    { "image": "syuzinkou2.png", "position": "right" ,"name": "リナ","speaking": true},
+    { "image": "ousama1.png", "position": "right" ,"name": "王様" }
+  ],
+  "choices": [
+    {"text": "次に進む", "next": "2syou8"}      
+  ]
+},
+
+
+"2syou8": {
+  "text": "「……なら、わし自らパーティに加わろう。神の力も興味がある。」",
+  "background": "ousitu1.png",
+  "characters": [
+    { "image": "syuzinkou2.png", "position": "right" ,"name": "リナ"},
+    { "image": "ousama1.png", "position": "right" ,"name": "王様" ,"speaking": true}
+  ],
+  "choices": [
+    {"text": "次に進む", "next": "2syou9"}      
+  ]
+},
+
+"2syou9": {
+  "text": "(王様がパーティーに加わる！？ねぇ神様、この王様をパーティーに加えて大丈夫なの？)",
+  "background": "ousitu1.png",
+  "characters": [
+    { "image": "syuzinkou2.png", "position": "right" ,"name": "リナ", "speaking": true},
+    { "image": "kami1.png", "position": "right" ,"name": "神" }
+  ],
+  "choices": [
+    {"text": "次に進む", "next": "2syou10"}      
+  ]
+},
+
+"2syou10": {
+  "text": "(その王様の実力は、今回やられた勇者の８割ほどの力がある。魔王の手下だけ倒すのであれば王様１人でも撃破可能だ)",
+  "background": "ousitu1.png",
+  "characters": [
+    { "image": "syuzinkou2.png", "position": "right" ,"name": "リナ"},
+    { "image": "kami1.png", "position": "right" ,"name": "神" , "speaking": true}
+  ],
+  "choices": [
+    {"text": "次に進む", "next": "2syou11"}      
+  ]
+},
+
+
+"2syou11": {
+  "text": "(そんなに強いの？なら、私いなくても強いパーティーを組めば魔王に勝てるんじゃない？)",
+  "background": "ousitu1.png",
+  "characters": [
+    { "image": "syuzinkou2.png", "position": "right" ,"name": "リナ",  "speaking": true},
+    { "image": "kami1.png", "position": "right" ,"name": "神" }
+  ],
+  "choices": [
+    {"text": "次に進む", "next": "2syou12"}      
+  ]
+},
+
+
+"2syou12": {
+  "text": "(言ったはずだ、正攻法では勝てないと。この世界の魔王を倒せるようなパーティー編成はリナを除いたら不可能だ。)",
+  "background": "ousitu1.png",
+  "characters": [
+    { "image": "syuzinkou2.png", "position": "right" ,"name": "リナ"},
+    { "image": "kami1.png", "position": "right" ,"name": "神" ,  "speaking": true}
+  ],
+  "choices": [
+    {"text": "次に進む", "next": "2syou13"}      
+  ]
+},
+
+
+"2syou13": {
+  "text": "(えー？なんで私なら魔王倒せるの？意味が分かんない)",
+  "background": "ousitu1.png",
+  "characters": [
+    { "image": "syuzinkou2.png", "position": "right" ,"name": "リナ" ,  "speaking": true},
+    { "image": "kami1.png", "position": "right" ,"name": "神" }
+  ],
+  "choices": [
+    {"text": "次に進む", "next": "2syou14"}      
+  ]
+},
+
+"2syou14": {
+  "text": "(自分の今できる事で、もう魔王は倒せる。魔王の弱点をつけば良いんだから)",
+  "background": "ousitu1.png",
+  "characters": [
+    { "image": "syuzinkou2.png", "position": "right" ,"name": "リナ"},
+    { "image": "kami1.png", "position": "right" ,"name": "神" ,  "speaking": true }
+  ],
+  "choices": [
+    {"text": "次に進む", "next": "2syou15"}      
+  ]
+},
+
+"2syou15": {
+  "text": "(魔王の弱点って何？教えて、神様)",
+  "background": "ousitu1.png",
+  "characters": [
+    { "image": "syuzinkou2.png", "position": "right" ,"name": "リナ" ,  "speaking": true },
+    { "image": "kami1.png", "position": "right" ,"name": "神" }
+  ],
+  "choices": [
+    {"text": "次に進む", "next": "2syou16"}      
+  ]
+},
+
+
+"2syou16": {
+  "text": "(まだ教えるわけにはいかないな、もしここで教えたらきっとそこの王様が魔王を倒してしまう)",
+  "background": "ousitu1.png",
+  "characters": [
+    { "image": "syuzinkou2.png", "position": "right" ,"name": "リナ" },
+    { "image": "kami1.png", "position": "right" ,"name": "神"  ,  "speaking": true }
+  ],
+  "choices": [
+    {"text": "次に進む", "next": "2syou17"}      
+  ]
+},
+
+"2syou17": {
+  "text": "(それでも良いじゃない、魔王を倒せれば)",
+  "background": "ousitu1.png",
+  "characters": [
+    { "image": "syuzinkou2.png", "position": "right" ,"name": "リナ"  ,  "speaking": true},
+    { "image": "kami1.png", "position": "right" ,"name": "神"  }
+  ],
+  "choices": [
+    {"text": "次に進む", "next": "2syou18"}      
+  ]
+},
+
+"2syou18": {
+  "text": "(魔王を倒したら、賢者の石が手に入る。これを手にすればあらゆる困難を乗り越えることができる。ただ今のリナの実績では、それを快く思うものはいないだろう。だから、リナ。お前が魔王を倒してみんなを説得するんだ)",
+  "background": "ousitu1.png",
+  "characters": [
+    { "image": "syuzinkou2.png", "position": "right" ,"name": "リナ" },
+    { "image": "kami1.png", "position": "right" ,"name": "神"  ,  "speaking": true }
+  ],
+  "choices": [
+    {"text": "次に進む", "next": "2syou19"}      
+  ]
+},
+
+
+
+"2syou19": {
+  "text": "(賢者の石の伝説は、本当だって事？今の魔王がここまで強いのも、その賢者の石のせい？)",
+  "background": "ousitu1.png",
+  "characters": [
+    { "image": "syuzinkou2.png", "position": "right" ,"name": "リナ"  ,  "speaking": true},
+    { "image": "kami1.png", "position": "right" ,"name": "神"  }
+  ],
+  "choices": [
+    {"text": "次に進む", "next": "2syou20"}      
+  ]
+},
+
+"2syou20": {
+  "text": "(そういうことだ。王様に渡ればこの世界は安全にはなるが、異世界では魔王を倒せてない世界がまだまだある。リナには魔王を倒した後異世界へと旅立って欲しいと思ってる)",
+  "background": "ousitu1.png",
+  "characters": [
+    { "image": "syuzinkou2.png", "position": "right" ,"name": "リナ" },
+    { "image": "kami1.png", "position": "right" ,"name": "神"  ,  "speaking": true }
+  ],
+  "choices": [
+    {"text": "次に進む", "next": "2syou21"}      
+  ]
+},
+
+"2syou21": {
+  "text": "(ええええーーー？ 私弱いよ？異世界の魔王って強そうだし。)",
+  "background": "ousitu1.png",
+  "characters": [
+    { "image": "syuzinkou2.png", "position": "right" ,"name": "リナ"  ,  "speaking": true},
+    { "image": "kami1.png", "position": "right" ,"name": "神"  }
+  ],
+  "choices": [
+    {"text": "次に進む", "next": "2syou22"}      
+  ]
+},
+
+
+"2syou22": {
+  "text": "(じゃあ、リナが強くなったら異世界を旅しても良いって事だな？)",
+  "background": "ousitu1.png",
+  "characters": [
+    { "image": "syuzinkou2.png", "position": "right" ,"name": "リナ" },
+    { "image": "kami1.png", "position": "right" ,"name": "神"  ,  "speaking": true }
+  ],
+  "choices": [
+    {"text": "次に進む", "next": "2syou23"}      
+  ]
+},
+
+"2syou23": {
+  "text": "(そ、それなら良いかも？いざとなったら神様にお願いしても良いなら)",
+  "background": "ousitu1.png",
+  "characters": [
+    { "image": "syuzinkou2.png", "position": "right" ,"name": "リナ"  ,  "speaking": true},
+    { "image": "kami1.png", "position": "right" ,"name": "神"  }
+  ],
+  "choices": [
+    {"text": "次に進む", "next": "2syou24"}      
+  ]
+},
+
+
+"2syou24": {
+  "text": "「おーい、パーティーに加わるのは問題ないのか？神とばかり相手してないでわしの事も忘れんでくれ」",
+  "background": "ousitu1.png",
+  "characters": [
+    { "image": "syuzinkou2.png", "position": "right" ,"name": "リナ" },
+    { "image": "ousama1.png", "position": "right" ,"name": "王様"   ,  "speaking": true}
+  ],
+  "choices": [
+    {"text": "次に進む", "next": "2syou25"}      
+  ]
+},
+
+"2syou25": {
+  "text": "「王様、心強いです。ぜひパーティーに加わってください。一緒に魔王を倒しましょう！」",
+  "background": "ousitu1.png",
+  "characters": [
+    { "image": "syuzinkou2.png", "position": "right" ,"name": "リナ" },
+    { "image": "ousama1.png", "position": "right" ,"name": "王様"   ,  "speaking": true}
+  ],
+  "choices": [
+    {"text": "次に進む", "next": "2syou26"}      
+  ]
+},
+
+"2syou26": {
+  "text": "こうして、魔王討伐のパーティーができた。神と共にするリナ。最強の勇者の８割の力を持つ王様。２人＋神しかいないパーティーで魔王討伐に向かう",
+  "background": "ousitu1.png",
+  "characters": [
+    { "image": "syuzinkou2.png", "position": "right" ,"name": "リナ" },
+    { "image": "ousama1.png", "position": "right" ,"name": "王様"   }
+  ],
+  "choices": [
+    {"text": "開始画面に戻る", "next": "top"},
+    {"text": "次に進む", "next": "3syou1"}      
+  ]
+},
+
+
+"3syou1": {
+  "text": "「この森を抜ければ、魔王の城まですぐそこだ。ここまで足止めもなしなのが気がかりだ。王様であるワシの力を知ってビビっておるのかも知れぬな」",
+  "background": "mori1.png",
+  "characters": [
+    { "image": "syuzinkou2.png", "position": "right" ,"name": "リナ" },
+    { "image": "ousama1.png", "position": "right" ,"name": "王様" ,  "speaking": true  }
+  ],
+  "choices": [
+    {"text": "次に進む", "next": "3syou2"}      
+  ]
+},
+
+
+"3syou2": {
+  "text": "「勇者が倒されたので、うかれてるだけかもしれません。一応、回復薬は持ってきましたけど」",
+  "background": "mori1.png",
+  "characters": [
+    { "image": "syuzinkou2.png", "position": "right" ,"name": "リナ"  ,  "speaking": true },
+    { "image": "ousama1.png", "position": "right" ,"name": "王様" }
+  ],
+  "choices": [
+    {"text": "次に進む", "next": "3syou3"}      
+  ]
+},
+
+
+"3syou3": {
+  "text": "「回復薬といっても、薬草じゃあのぅ。エリクサーやハイポーションはおろか、普通のポーションでも劣化品ではないか。神のやつ、何を考えておる」",
+  "background": "mori1.png",
+  "characters": [
+    { "image": "syuzinkou2.png", "position": "right" ,"name": "リナ"  },
+    { "image": "ousama1.png", "position": "right" ,"name": "王様" ,  "speaking": true }
+  ],
+  "choices": [
+    {"text": "次に進む", "next": "3syou4"}      
+  ]
+},
+
+
+"3syou4": {
+  "text": "「薬草の採取しかしてこなかったので、ポーションの作り方もよく分かっておらず、すみません。でも、新鮮で良い薬草なんですよ。北の大地の薬草は見つけるのが困難ですが品質は良いので、きっと冒険の役に立つと神様が」",
+  "background": "mori1.png",
+  "characters": [
+    { "image": "syuzinkou2.png", "position": "right" ,"name": "リナ",  "speaking": true  },
+    { "image": "ousama1.png", "position": "right" ,"name": "王様"  }
+  ],
+  "choices": [
+    {"text": "次に進む", "next": "3syou5"}      
+  ]
+},
+
+"3syou5": {
+  "text": "「薬草では、焼石に水だと思うがのう。神の考えは読めぬ。でも、ないよりはましなのは確かだな。」",
+  "background": "mori1.png",
+  "characters": [
+    { "image": "syuzinkou2.png", "position": "right" ,"name": "リナ"  },
+    { "image": "ousama1.png", "position": "right" ,"name": "王様" ,  "speaking": true }
+  ],
+  "choices": [
+    {"text": "次に進む", "next": "3syou6"}      
+  ]
+},
+
+
+"3syou6": {
+  "text": "話し合ってるその時、ゴブリンがリナめがけて襲ってきた。しかし、王様もそれに気がつきすぐに反応した。",
+  "background": "mori1.png",
+  "characters": [
+    { "image": "syuzinkou2.png", "position": "right" ,"name": "リナ"  },
+    { "image": "ousama1.png", "position": "right" ,"name": "王様"  },
+    { "image": "goburin1.png", "position": "right" ,"name": "ゴブリン"  }
+  ],
+  "choices": [
+    {"text": "次に進む", "next": "3syou7"}      
+  ]
+},
+
+"3syou7": {
+  "text": "「リナ、あぶない！」王様がリナをかばった。そしてあっという間にゴブリンを倒した",
+  "background": "mori1.png",
+  "characters": [
+    { "image": "syuzinkou2.png", "position": "right" ,"name": "リナ"  },
+    { "image": "ousama1.png", "position": "right" ,"name": "王様","speaking":true  }
+  ],
+  "choices": [
+    {"text": "次に進む", "next": "3syou8"}      
+  ]
+},
+
+
+"3syou8": {
+  "text": "「王様！？大丈夫ですか？」",
+  "background": "mori1.png",
+  "characters": [
+    { "image": "syuzinkou2.png", "position": "right" ,"name": "リナ" ,"speaking":true  },
+    { "image": "ousama1.png", "position": "right" ,"name": "王様" }
+  ],
+  "choices": [
+    {"text": "次に進む", "next": "3syou9"}      
+  ]
+},
+
+"3syou9": {
+  "text": "「何、これくらい大した事はない。しかし相手が魔王なら庇（かば）いきれない。魔王はお前が倒してみせよ」",
+  "background": "mori1.png",
+  "characters": [
+    { "image": "syuzinkou2.png", "position": "right" ,"name": "リナ" },
+    { "image": "ousama1.png", "position": "right" ,"name": "王様" ,"speaking":true  }
+  ],
+  "choices": [
+    {"text": "次に進む", "next": "3syou10"}      
+  ]
+},
+
+"3syou10": {
+  "text": "「私、まだ実感がなくて。スライムも倒せない私が魔王を倒せるのでしょうか？」",
+  "background": "mori1.png",
+  "characters": [
+    { "image": "syuzinkou2.png", "position": "right" ,"name": "リナ","speaking":true  },
+    { "image": "ousama1.png", "position": "right" ,"name": "王様"  }
+  ],
+  "choices": [
+    {"text": "次に進む", "next": "3syou11"}      
+  ]
+},
+
+"3syou11": {
+  "text": "「神がお前を指名したんだろう？何か考えがあるのだろう。」",
+  "background": "mori1.png",
+  "characters": [
+    { "image": "syuzinkou2.png", "position": "right" ,"name": "リナ"  },
+    { "image": "ousama1.png", "position": "right" ,"name": "王様" ,"speaking":true }
+  ],
+  "choices": [
+    {"text": "次に進む", "next": "3syou12"}      
+  ]
+},
+
+
+"3syou12": {
+  "text": "「神様の考えですか。私には全然わからないです。」",
+  "background": "mori1.png",
+  "characters": [
+    { "image": "syuzinkou2.png", "position": "right" ,"name": "リナ","speaking":true  },
+    { "image": "ousama1.png", "position": "right" ,"name": "王様"  }
+  ],
+  "choices": [
+    {"text": "次に進む", "next": "3syou13"}      
+  ]
+},
+
+
+"3syou13": {
+  "text": "「ううむ、薬草が何の役にたつのだ。もしかして、肉体強化につながったりしないのか？」",
+  "background": "mori1.png",
+  "characters": [
+    { "image": "syuzinkou2.png", "position": "right" ,"name": "リナ"  },
+    { "image": "ousama1.png", "position": "right" ,"name": "王様" ,"speaking":true }
+  ],
+  "choices": [
+    {"text": "次に進む", "next": "3syou14"}      
+  ]
+},
+
+
+"3syou14": {
+  "text": "「いえ、傷が癒えるだけの薬草です。ポーションには劣りますが、薬草の中では最高の品質です。」",
+  "background": "mori1.png",
+  "characters": [
+    { "image": "syuzinkou2.png", "position": "right" ,"name": "リナ","speaking":true  },
+    { "image": "ousama1.png", "position": "right" ,"name": "王様"  }
+  ],
+  "choices": [
+    {"text": "次に進む", "next": "3syou15"}      
+  ]
+},
+
+
+"3syou15": {
+  "text": "「神の策はきっとその薬草にあると思うんだがのぅ。戦闘に関しては、わし一人の方がましだろう」",
+  "background": "mori1.png",
+  "characters": [
+    { "image": "syuzinkou2.png", "position": "right" ,"name": "リナ"  },
+    { "image": "ousama1.png", "position": "right" ,"name": "王様" ,"speaking":true }
+  ],
+  "choices": [
+    {"text": "次に進む", "next": "3syou16"}      
+  ]
+},
+
+
+"3syou16": {
+  "text": "「私を含めたパーティじゃないと魔王は倒せないと言ってました。もう何が何やら」",
+  "background": "mori1.png",
+  "characters": [
+    { "image": "syuzinkou2.png", "position": "right" ,"name": "リナ","speaking":true  },
+    { "image": "ousama1.png", "position": "right" ,"name": "王様"  }
+  ],
+  "choices": [
+    {"text": "次に進む", "next": "3syou17"}      
+  ]
+},
+
+"3syou17": {
+  "text": "「スライムすら倒せないリナが魔王を倒すための必須な一人になるとは。神に力でも授かってる訳でもないのだろう？」",
+  "background": "mori1.png",
+  "characters": [
+    { "image": "syuzinkou2.png", "position": "right" ,"name": "リナ"  },
+    { "image": "ousama1.png", "position": "right" ,"name": "王様" ,"speaking":true }
+  ],
+  "choices": [
+    {"text": "次に進む", "next": "3syou18"}      
+  ]
+},
+
+
+"3syou18": {
+  "text": "「そうなんです……。どうしたら魔王を倒せるんでしょうか？正攻法ではないやり方で勝つとは聞いてますがよくわからなくて」",
+  "background": "mori1.png",
+  "characters": [
+    { "image": "syuzinkou2.png", "position": "right" ,"name": "リナ","speaking":true  },
+    { "image": "ousama1.png", "position": "right" ,"name": "王様"  }
+  ],
+  "choices": [
+    {"text": "次に進む", "next": "3syou19"}      
+  ]
+},
+
+"3syou19": {
+  "text": "「魔王との戦いになったら、神が指示してくれるだろう。神とリナに命運がかかってる」",
+  "background": "mori1.png",
+  "characters": [
+    { "image": "syuzinkou2.png", "position": "right" ,"name": "リナ"},
+    { "image": "ousama1.png", "position": "right" ,"name": "王様"  ,"speaking":true }
+  ],
+  "choices": [
+     {"text": "次に進む", "next": "3syou20"}      
+  ]
+},
+
+"3syou20": {
+  "text": "果たして、リナは魔王に勝てるのでしょうか？正攻法ではない、神の秘策とは何でしょうか？",
+  "background": "mori1.png",
+  "characters": [
+    { "image": "syuzinkou2.png", "position": "right" ,"name": "リナ"  },
+    { "image": "ousama1.png", "position": "right" ,"name": "王様"  }
+  ],
+  "choices": [
+    {"text": "開始画面に戻る", "next": "top"},
+  {"text": "次に進む", "next": "4syou1"}
+  ]
+},
+
+
+"4syou1": {
+  "text": "「思ってたほど、魔物がいませんね。森を抜けて魔王城の中だというのに」",
+  "background": "maouzyou2.png",
+  "characters": [
+    { "image": "syuzinkou2.png", "position": "right" ,"name": "リナ" ,"speaking":true},
+    { "image": "ousama1.png", "position": "right" ,"name": "王様"   }
+  ],
+  "choices": [
+     {"text": "次に進む", "next": "4syou2"}      
+  ]
+},
+
+"4syou2": {
+  "text": "「やられた勇者が、レベル上げをしながら魔王城まで来たからであろう。 経験値効率の低いゴブリンすら１体だけだしのぅ」",
+  "background": "maouzyou2.png",
+  "characters": [
+    { "image": "syuzinkou2.png", "position": "right" ,"name": "リナ" },
+    { "image": "ousama1.png", "position": "right" ,"name": "王様"   ,"speaking":true}
+  ],
+  "choices": [
+     {"text": "次に進む", "next": "4syou3"}      
+  ]
+},
+
+"4syou3": {
+  "text": "「よくきたな、ヴェルンの王よ」",
+  "background": "maouzyou2.png",
+  "characters": [
+    { "image": "syuzinkou2.png", "position": "right" ,"name": "リナ" },
+    { "image": "ousama1.png", "position": "right" ,"name": "王様"   },
+    { "image": "maou4.png", "position": "right" ,"name": "魔王"  ,"speaking":true }
+  ],
+  "choices": [
+     {"text": "次に進む", "next": "4syou4"}      
+  ]
+},
+
+
+
+
+"4syou4": {
+  "text": "「魔王か。よくも勇者を倒してくれたのぅ」",
+  "background": "maouzyou2.png",
+  "characters": [
+    { "image": "syuzinkou2.png", "position": "right" ,"name": "リナ" },
+    { "image": "ousama1.png", "position": "right" ,"name": "王様"   ,"speaking":true},
+    { "image": "maou4.png", "position": "right" ,"name": "魔王"   }
+  ],
+  "choices": [
+     {"text": "次に進む", "next": "4syou5"}      
+  ]
+},
+
+"4syou5": {
+  "text": "「勇者を倒した後に国王自らやられに来るとは良い度胸だ。返り討ちにしてくれよう」",
+  "background": "maouzyou2.png",
+  "characters": [
+    { "image": "syuzinkou2.png", "position": "right" ,"name": "リナ"  },
+    { "image": "ousama1.png", "position": "right" ,"name": "王様"   },
+    { "image": "maou4.png", "position": "right" ,"name": "魔王"  ,"speaking":true }
+  ],
+  "choices": [
+     {"text": "次に進む", "next": "4syou6"}      
+  ]
+},
+
+"4syou6": {
+  "text": "「リナ、神に人格を変わってもらえ。この勝負、神がいないと勝てないじゃろう？」",
+  "background": "maouzyou2.png",
+  "characters": [
+    { "image": "syuzinkou2.png", "position": "right" ,"name": "リナ" },
+    { "image": "ousama1.png", "position": "right" ,"name": "王様"   ,"speaking":true },
+    { "image": "maou4.png", "position": "right" ,"name": "魔王"   }
+  ],
+  "choices": [
+     {"text": "次に進む", "next": "4syou7"}      
+  ]
+},
+
+
+"4syou7": {
+  "text": "「そそそ、そんなこと言われても、な、な、何をどうしたらいいかわからないです。」",
+  "background": "maouzyou2.png",
+  "characters": [
+    { "image": "syuzinkou2.png", "position": "right" ,"name": "リナ" ,"speaking":true},
+    { "image": "ousama1.png", "position": "right" ,"name": "王様"    },
+    { "image": "maou4.png", "position": "right" ,"name": "魔王"   }
+  ],
+  "choices": [
+     {"text": "次に進む", "next": "4syou8"}      
+  ]
+},
+
+"4syou8": {
+  "text": "「裏には、神もいるのか？面白い、白熱したバトルとしようじゃないか」",
+  "background": "maouzyou2.png",
+  "characters": [
+    { "image": "syuzinkou2.png", "position": "right" ,"name": "リナ" },
+    { "image": "ousama1.png", "position": "right" ,"name": "王様"    },
+    { "image": "maou4.png", "position": "right" ,"name": "魔王"  ,"speaking":true }
+  ],
+  "choices": [
+     {"text": "次に進む", "next": "4syou9"}      
+  ]
+},
+
+"4syou9": {
+  "text": "「む、無理です。私にはどうすることもできません。か、神様、変わってください」",
+  "background": "maouzyou2.png",
+  "characters": [
+    { "image": "syuzinkou2.png", "position": "right" ,"name": "リナ" ,"speaking":true},
+    { "image": "ousama1.png", "position": "right" ,"name": "王様"    },
+    { "image": "maou4.png", "position": "right" ,"name": "魔王"   }
+  ],
+  "choices": [
+     {"text": "次に進む", "next": "4syou10"}      
+  ]
+},
+
+
+"4syou10": {
+  "text": "「しっかり考えれば、お前の力だけで勝てる。発想を変えてみるんだ」",
+  "background": "maouzyou2.png",
+  "characters": [
+    { "image": "syuzinkou2.png", "position": "right" ,"name": "リナ" },
+    { "image": "kami1.png", "position": "right" ,"name": "神"  ,"speaking":true  },
+    { "image": "maou4.png", "position": "right" ,"name": "魔王"   }
+  ],
+  "choices": [
+     {"text": "次に進む", "next": "4syou11"}      
+  ]
+},
+
+"4syou11": {
+  "text": "「発想を変える？　そんな事いってもわからないですよー」",
+  "background": "maouzyou2.png",
+  "characters": [
+    { "image": "syuzinkou2.png", "position": "right" ,"name": "リナ" ,"speaking":true },
+    { "image": "kami1.png", "position": "right" ,"name": "神"   },
+    { "image": "maou4.png", "position": "right" ,"name": "魔王"   }
+  ],
+  "choices": [
+     {"text": "次に進む", "next": "4syou12"}      
+  ]
+},
+
+"4syou12": {
+  "text": "「何やら神には策があるようだな？では、まず小娘から始末しよう」",
+  "background": "maouzyou2.png",
+  "characters": [
+    { "image": "syuzinkou2.png", "position": "right" ,"name": "リナ"  },
+    { "image": "kami1.png", "position": "right" ,"name": "神"   },
+    { "image": "maou4.png", "position": "right" ,"name": "魔王" ,"speaking":true  }
+  ],
+  "choices": [
+     {"text": "次に進む", "next": "4syou13"}      
+  ]
+},
+
+"4syou13": {
+  "text": "「そうはさせん。国王として、その娘はわしが守る」",
+  "background": "maouzyou2.png",
+  "characters": [
+    { "image": "syuzinkou2.png", "position": "right" ,"name": "リナ"  },
+    { "image": "ousama1.png", "position": "right" ,"name": "王様" ,"speaking":true   },
+    { "image": "maou4.png", "position": "right" ,"name": "魔王"  }
+  ],
+  "choices": [
+     {"text": "次に進む", "next": "4syou14"}      
+  ]
+},
+
+
+"4syou14": {
+  "text": "「なら、そのガードごと吹っ飛ばすまでよ。ダークメテオフレア！」",
+  "background": "maouzyou2.png",
+  "characters": [
+    { "image": "syuzinkou2.png", "position": "right" ,"name": "リナ"  },
+    { "image": "ousama1.png", "position": "right" ,"name": "王様"    },
+    { "image": "maou4.png", "position": "right" ,"name": "魔王" ,"speaking":true }
+  ],
+  "choices": [
+     {"text": "次に進む", "next": "4syou15"}      
+  ]
+},
+
+"4syou15": {
+  "text": "「ぐわあああああっ。リ、リナよ。エリクサーを頼む」",
+  "background": "maouzyou2.png",
+  "characters": [
+    { "image": "syuzinkou2.png", "position": "right" ,"name": "リナ"  },
+    { "image": "ousama1.png", "position": "right" ,"name": "王様" ,"speaking":true   },
+    { "image": "maou4.png", "position": "right" ,"name": "魔王"  }
+  ],
+  "choices": [
+     {"text": "次に進む", "next": "4syou16"}      
+  ]
+},
+
+"4syou16": {
+  "text": "「わ、わかりました。エリクサーです」　リナはエリクサーを王様に投げた。",
+  "background": "maouzyou2.png",
+  "characters": [
+    { "image": "syuzinkou2.png", "position": "right" ,"name": "リナ" ,"speaking":true  },
+    { "image": "ousama1.png", "position": "right" ,"name": "王様"   },
+    { "image": "maou4.png", "position": "right" ,"name": "魔王"  }
+  ],
+  "choices": [
+     {"text": "次に進む", "next": "4syou17"}      
+  ]
+},
+
+"4syou17": {
+  "text": "「そうはさせるか、そのエリクサーとやらをいただこう」",
+  "background": "maouzyou2.png",
+  "characters": [
+    { "image": "syuzinkou2.png", "position": "right" ,"name": "リナ"   },
+    { "image": "ousama1.png", "position": "right" ,"name": "王様"   },
+    { "image": "maou4.png", "position": "right" ,"name": "魔王" ,"speaking":true }
+  ],
+  "choices": [
+     {"text": "次に進む", "next": "4syou18"}      
+  ]
+},
+
+"4syou18": {
+  "text": "「あ、エリクサーが魔王にとられた！？　ごめんなさい王様〜」",
+  "background": "maouzyou2.png",
+  "characters": [
+    { "image": "syuzinkou2.png", "position": "right" ,"name": "リナ" ,"speaking":true  },
+    { "image": "ousama1.png", "position": "right" ,"name": "王様"   },
+    { "image": "maou4.png", "position": "right" ,"name": "魔王"  }
+  ],
+  "choices": [
+     {"text": "次に進む", "next": "4syou19"}      
+  ]
+},
+
+
+"4syou19": {
+  "text": "「フハハハハハ！　今まで戦ってきた勇者との戦いで消耗していた体力が回復した！これがエリクサーの力か！」",
+  "background": "maouzyou2.png",
+  "characters": [
+    { "image": "syuzinkou2.png", "position": "right" ,"name": "リナ"   },
+    { "image": "ousama1.png", "position": "right" ,"name": "王様"   },
+    { "image": "maou4.png", "position": "right" ,"name": "魔王" ,"speaking":true }
+  ],
+  "choices": [
+     {"text": "次に進む", "next": "4syou20"}      
+  ]
+},
+
+
+"4syou20": {
+  "text": "「あ……あ……あ……もうダメだぁ。神様……助けて」",
+  "background": "maouzyou2.png",
+  "characters": [
+    { "image": "syuzinkou2.png", "position": "right" ,"name": "リナ"  ,"speaking":true  },
+    { "image": "ousama1.png", "position": "right" ,"name": "王様"   },
+    { "image": "maou4.png", "position": "right" ,"name": "魔王" }
+  ],
+  "choices": [
+     {"text": "次に進む", "next": "4syou21"}      
+  ]
+},
+
+"4syou21": {
+  "text": "「分かった。だが、戦うのは私じゃない、リナだ。この魔王の攻略法は…………だ」",
+  "background": "maouzyou2.png",
+  "characters": [
+    { "image": "syuzinkou2.png", "position": "right" ,"name": "リナ"    },
+    { "image": "kami1.png", "position": "right" ,"name": "神"  ,"speaking":true },
+    { "image": "maou4.png", "position": "right" ,"name": "魔王" }
+  ],
+  "choices": [
+     {"text": "次に進む", "next": "4syou22"}      
+  ]
+},
+
+
+"4syou22": {
+  "text": "「え？そんなこと？」",
+  "background": "maouzyou2.png",
+  "characters": [
+    { "image": "syuzinkou2.png", "position": "right" ,"name": "リナ"  ,"speaking":true   },
+    { "image": "kami1.png", "position": "right" ,"name": "神" },
+    { "image": "maou4.png", "position": "right" ,"name": "魔王" }
+  ],
+  "choices": [
+     {"text": "次に進む", "next": "4syou23"}      
+  ]
+},
+
+
+"4syou23": {
+  "text": "「頼む、リナよ。わしに回復薬を……早く」",
+  "background": "maouzyou2.png",
+  "characters": [
+    { "image": "syuzinkou2.png", "position": "right" ,"name": "リナ"    },
+    { "image": "ousama1.png", "position": "right" ,"name": "王様" ,"speaking":true },
+    { "image": "maou4.png", "position": "right" ,"name": "魔王" }
+  ],
+  "choices": [
+     {"text": "次に進む", "next": "4syou24"}      
+  ]
+},
+
+
+"4syou24": {
+  "text": "「回復薬ですね、わかりました。」リナは、持っている薬草を取り出した",
+  "background": "maouzyou2.png",
+  "characters": [
+    { "image": "syuzinkou2.png", "position": "right" ,"name": "リナ" ,"speaking":true    },
+    { "image": "ousama1.png", "position": "right" ,"name": "王様" },
+    { "image": "maou4.png", "position": "right" ,"name": "魔王" }
+  ],
+  "choices": [
+     {"text": "次に進む", "next": "4syou25"}      
+  ]
+},
+
+"4syou25": {
+  "text": "「そ、それは薬草ではないか、ハイポーションもまだ残っている。薬草などでは焼石に水だぞ」",
+  "background": "maouzyou2.png",
+  "characters": [
+    { "image": "syuzinkou2.png", "position": "right" ,"name": "リナ"    },
+    { "image": "ousama1.png", "position": "right" ,"name": "王様" ,"speaking":true },
+    { "image": "maou4.png", "position": "right" ,"name": "魔王" }
+  ],
+  "choices": [
+     {"text": "次に進む", "next": "4syou26"}      
+  ]
+},
+
+
+"4syou26": {
+  "text": "「いっけー！」",
+  "background": "maouzyou2.png",
+  "characters": [
+    { "image": "syuzinkou2.png", "position": "right" ,"name": "リナ"  ,"speaking":true   },
+    { "image": "ousama1.png", "position": "right" ,"name": "王様" },
+    { "image": "maou4.png", "position": "right" ,"name": "魔王" }
+  ],
+  "choices": [
+     {"text": "薬草を魔王に投げる", "next": "4syou27"}      
+  ]
+},
+
+"4syou27": {
+  "text": "「しかも、魔王の方に薬草を投げただと？どういうことだ？」",
+  "background": "maouzyou2.png",
+  "characters": [
+    { "image": "syuzinkou2.png", "position": "right" ,"name": "リナ"    },
+    { "image": "ousama1.png", "position": "right" ,"name": "王様"  ,"speaking":true},
+    { "image": "maou4.png", "position": "right" ,"name": "魔王" }
+  ],
+  "choices": [
+     {"text": "次に進む", "next": "4syou28"}      
+  ]
+},
+
+
+"4syou28": {
+  "text": "「フハハハハ、これも回復薬なのか？頂くとしよう」",
+  "background": "maouzyou2.png",
+  "characters": [
+    { "image": "syuzinkou2.png", "position": "right" ,"name": "リナ"    },
+    { "image": "ousama1.png", "position": "right" ,"name": "王様"  },
+    { "image": "maou4.png", "position": "right" ,"name": "魔王","speaking":true }
+  ],
+  "choices": [
+     {"text": "次に進む", "next": "4syou29"}      
+  ]
+},
+
+
+"4syou28": {
+  "text": "「グ、グワァァァァァァ！？おのれ、嘘ついたな！？どこが回復薬だ、猛毒ではないか！」",
+  "background": "maouzyou2.png",
+  "characters": [
+    { "image": "syuzinkou2.png", "position": "right" ,"name": "リナ"    },
+    { "image": "ousama1.png", "position": "right" ,"name": "王様"  },
+    { "image": "maou4.png", "position": "right" ,"name": "魔王","speaking":true }
+  ],
+  "choices": [
+     {"text": "次に進む", "next": "4syou29"}      
+  ]
+},
+
+"4syou29": {
+  "text": "「それは本当に回復薬ですよ。効果はあまり強くないけど、人々にとっては。ただ、魔王のあなたにとっては勇者の一撃よりも重い、毒草になるようです」",
+  "background": "maouzyou2.png",
+  "characters": [
+    { "image": "syuzinkou2.png", "position": "right" ,"name": "リナ" ,"speaking":true   },
+    { "image": "ousama1.png", "position": "right" ,"name": "王様"  },
+    { "image": "maou4.png", "position": "right" ,"name": "魔王" }
+  ],
+  "choices": [
+     {"text": "次に進む", "next": "4syou30"}      
+  ]
+},
+
+"4syou30": {
+  "text": "「魔王に効く毒草じゃと？この薬草にそんな使い道があったとは……」",
+  "background": "maouzyou2.png",
+  "characters": [
+    { "image": "syuzinkou2.png", "position": "right" ,"name": "リナ"    },
+    { "image": "ousama1.png", "position": "right" ,"name": "王様" ,"speaking":true },
+    { "image": "maou4.png", "position": "right" ,"name": "魔王" }
+  ],
+  "choices": [
+     {"text": "次に進む", "next": "4syou31"}      
+  ]
+},
+
+"4syou31": {
+  "text": "「ポーションやエリクサーでは、魔王に効く成分がなくなってしまうみたいなんです。加熱や、ろかに弱いようで」",
+  "background": "maouzyou2.png",
+  "characters": [
+    { "image": "syuzinkou2.png", "position": "right" ,"name": "リナ","speaking":true    },
+    { "image": "ousama1.png", "position": "right" ,"name": "王様"  },
+    { "image": "maou4.png", "position": "right" ,"name": "魔王" }
+  ],
+  "choices": [
+     {"text": "次に進む", "next": "4syou32"}      
+  ]
+},
+
+
+"4syou32": {
+  "text": "「神様の言ってた倒し方とは、この薬草を魔王に使うこと。分かってしまえばこんな簡単な事だったようです」",
+  "background": "maouzyou2.png",
+  "characters": [
+    { "image": "syuzinkou2.png", "position": "right" ,"name": "リナ","speaking":true    },
+    { "image": "ousama1.png", "position": "right" ,"name": "王様"  },
+    { "image": "maou4.png", "position": "right" ,"name": "魔王" }
+  ],
+  "choices": [
+     {"text": "次に進む", "next": "4syou33"}      
+  ]
+},
+
+
+"4syou33": {
+  "text": "「おのれぇぇ。こんなスライムすら倒せない小娘にやられるとは、不覚。だが、見事な連携だった。ぐはっ」",
+  "background": "maouzyou2.png",
+  "characters": [
+    { "image": "syuzinkou2.png", "position": "right" ,"name": "リナ"   },
+    { "image": "ousama1.png", "position": "right" ,"name": "王様"  },
+    { "image": "maou4.png", "position": "right" ,"name": "魔王" ,"speaking":true  }
+  ],
+  "choices": [
+     {"text": "次に進む", "next": "4syou34"}      
+  ]
+},
+
+
+"4syou34": {
+  "text": "「魔王、賢者の石は頂くよ。もっと強くなって、困ってる人を助けられるように、私もなってみたくなったから。」",
+  "background": "maouzyou2.png",
+  "characters": [
+    { "image": "syuzinkou2.png", "position": "right" ,"name": "リナ" ,"speaking":true  },
+    { "image": "ousama1.png", "position": "right" ,"name": "王様"  }
+  ],
+  "choices": [
+     {"text": "次に進む", "next": "4syou35"}      
+  ]
+},
+
+
+"4syou35": {
+  "text": "「たまたま薬草が効いただけで良い気になりおって。スライムを倒せないのに勇者などなれるか」",
+  "background": "maouzyou2.png",
+  "characters": [
+    { "image": "syuzinkou2.png", "position": "right" ,"name": "リナ"   },
+    { "image": "ousama1.png", "position": "right" ,"name": "王様" ,"speaking":true }
+  ],
+  "choices": [
+     {"text": "次に進む", "next": "4syou36"}      
+  ]
+},
+
+
+"4syou36": {
+  "text": "「やってもみないで、決めつけるのって良くないと思って。スライムは倒せなくても、魔王は倒せましたし」",
+  "background": "maouzyou2.png",
+  "characters": [
+    { "image": "syuzinkou2.png", "position": "right" ,"name": "リナ" ,"speaking":true  },
+    { "image": "ousama1.png", "position": "right" ,"name": "王様"  }
+  ],
+  "choices": [
+     {"text": "次に進む", "next": "4syou37"}      
+  ]
+},
+
+
+"4syou37": {
+  "text": "「行くのか？異世界に。この世界にいれば、英雄だぞ？何不自由なく暮らせるぞ？……それでも行くのか？」",
+  "background": "maouzyou2.png",
+  "characters": [
+    { "image": "syuzinkou2.png", "position": "right" ,"name": "リナ"   },
+    { "image": "ousama1.png", "position": "right" ,"name": "王様" ,"speaking":true }
+  ],
+  "choices": [
+     {"text": "次に進む", "next": "4syou38"}      
+  ]
+},
+
+
+"4syou38": {
+  "text": "「……知ってしまったんです。困り事を解決できた時の喜びを。私を必要としてくれる喜びを。だから、もうこの世界では私の心は満たされないと思います」",
+  "background": "maouzyou2.png",
+  "characters": [
+    { "image": "syuzinkou2.png", "position": "right" ,"name": "リナ" ,"speaking":true  },
+    { "image": "ousama1.png", "position": "right" ,"name": "王様"  }
+  ],
+  "choices": [
+     {"text": "次に進む", "next": "4syou39"}      
+  ]
+},
+
+
+"4syou39": {
+  "text": "「確かに、次の魔王が出てきても薬草が弱点と分かれば容易い（たやすい）か。すぐ対処出来るように、ヴェルンに薬草を植えて備えるとしよう」",
+  "background": "maouzyou2.png",
+  "characters": [
+    { "image": "syuzinkou2.png", "position": "right" ,"name": "リナ"  },
+    { "image": "ousama1.png", "position": "right" ,"name": "王様" ,"speaking":true  }
+  ],
+  "choices": [
+     {"text": "次に進む", "next": "4syou40"}      
+  ]
+},
+
+
+"4syou40": {
+  "text": "「では、神様と一緒に異世界に行ってきます。」",
+  "background": "maouzyou2.png",
+  "characters": [
+    { "image": "syuzinkou2.png", "position": "right" ,"name": "リナ","speaking":true   },
+    { "image": "ousama1.png", "position": "right" ,"name": "王様"  }
+  ],
+  "choices": [
+     {"text": "次に進む", "next": "4syou41"}      
+  ]
+},
+
+
+"4syou41": {
+  "text": "「達者（たっしゃ）でな。活躍を期待しているぞ」",
+  "background": "maouzyou2.png",
+  "characters": [
+    { "image": "syuzinkou2.png", "position": "right" ,"name": "リナ"  },
+    { "image": "ousama1.png", "position": "right" ,"name": "王様" ,"speaking":true  }
+  ],
+  "choices": [
+     {"text": "次に進む", "next": "4syou42"}      
+  ]
+},
+
+"4syou42": {
+  "text": "こうして、魔王は倒された。この後リナは現代に転生するのだが、それはまた次のお話……",
+  "background": "maouzyou2.png",
+  "characters": [
+    { "image": "syuzinkou2.png", "position": "right" ,"name": "リナ" },
+   { "image": "ousama1.png", "position": "right" ,"name": "王様"   }
+  ],
+  "choices": [
+     {"text": "good end トップに戻る", "next": "top"}      
+  ]
+},
+
+
+"atogaki1": {
+  "text": "後書き　この物語で伝えたかった事 ネタバレ注意！",
+  "background": "haikei2.png",
+  "choices": [
+     {"text": "次に進む", "next": "atogaki2"}      
+  ]
+},
+
+
+"atogaki2": {
+  "text": "コロンブスの卵ってご存知でしょうか？最初に物事を上手くいく方法を見つけるのは、とても難しいよ。という例えです。",
+  "background": "haikei2.png",
+  "choices": [
+     {"text": "次に進む", "next": "atogaki3"}      
+  ]
+},
+
+"atogaki3": {
+  "text": "答えが分かれば、簡単に出来る事も多いのです。中には、その人でしか上手くいかないような凄腕の職人のような人もいらっしゃいますが",
+  "background": "haikei2.png",
+  "choices": [
+     {"text": "次に進む", "next": "atogaki4"}      
+  ]
+},
+
+
+"atogaki4": {
+  "text": "では、答えがどうやったら分かるのでしょうか？　それは、やったことある人に聞いてみるのが一番良いでしょう。",
+  "background": "haikei2.png",
+  "choices": [
+     {"text": "次に進む", "next": "atogaki5"}      
+  ]
+},
+
+"atogaki5": {
+  "text": "では、やったことがある人に聞けなかったり、自分の頭で考えなくてはならない時はどうしたら良いでしょうか？",
+  "background": "haikei2.png",
+  "choices": [
+     {"text": "次に進む", "next": "atogaki6"}      
+  ]
+},
+
+"atogaki6": {
+  "text": "まずは、よく調べましょう。似たような事例はないか？本になってるものはないか？チャットGPTに質問しても答えが出ないか？",
+  "background": "haikei2.png",
+  "choices": [
+     {"text": "次に進む", "next": "atogaki7"}      
+  ]
+},
+
+
+"atogaki7": {
+  "text": "上手くいきそうだと思った場合、次は行動に移しましょう。調べてもよく分からなかった場合は、仮説を立てて、失敗しても大丈夫な範囲で行動に移しましょう",
+  "background": "haikei2.png",
+  "choices": [
+     {"text": "次に進む", "next": "atogaki8"}      
+  ]
+},
+
+
+"atogaki8": {
+  "text": "行動してダメだった時は、どうしてダメだったのかを分析しましょう。この分析が多ければ多いほど次に成功する可能性を高めてくれます。",
+  "background": "haikei2.png",
+  "choices": [
+     {"text": "次に進む", "next": "atogaki9"}      
+  ]
+},
+
+
+"atogaki9": {
+  "text": "小さな失敗はたくさんした方がいいのです。取り返しのつかないような失敗さえ避けれれば良いのです。行動の塊だと言えるのが人工知能のAIです。何度も失敗しながら、成功する方法を常に考えている優れものです。",
+  "background": "haikei2.png",
+  "choices": [
+     {"text": "次に進む", "next": "atogaki10"}      
+  ]
+},
+
+
+"atogaki10": {
+  "text": "知識✖️行動が、人生においてとても大切です。そのためには、日々の習慣が大切になります。良い習慣とはどんな習慣なのかは、人それぞれ違います。理想の未来を手に入れたいと考えているのであれば、今の習慣を見直して理想の未来に近づける習慣とは何なのか、考えてみてください。",
+  "background": "haikei2.png",
+  "choices": [
+     {"text": "次に進む", "next": "atogaki11"}      
+  ]
+},
+
+
+"atogaki11": {
+  "text": "大人になっても、優秀な人ほど本をよく読み、運動を取り入れて健康を保っています。理想の人物になりたいのであれば、大人になった後こそ、知識も行動力も必要なのです。",
+  "background": "haikei2.png",
+  "choices": [
+     {"text": "次に進む", "next": "atogaki12"}      
+  ]
+},
+
+
+"atogaki12": {
+  "text": "あなたはどんな大人になりたいでしょうか？もし理想とする大人がいるのであれば、その人がやっている習慣を真似て見てください。今が一番人生で若い日です。やらずに後悔するより、やって後悔出来るよう、色んな事に挑戦しながら、将来すごい人がこのゲームをやってるプレイヤーで誕生する事を願ってます。",
+  "background": "haikei2.png",
+  "choices": [
+     {"text": "トップに戻る", "next": "top"}      
+  ]
+},
+
+
+
+  "collect_herbs": {
+    "text": "いつものように薬草を採取する。",
+    "character": "sample3.png",
+    "characterPosition": "right",
+    "choices": [
+      {"text": "もう少し集める", "next": "more_herbs"},
+      {"text": "村に戻る", "next": "village"}
+    ]
+  },
+
+
+  "walk": {
+    "text": "村の人々は、なぜか薬草を使おうとしない…",
+    "choices": [
+      {"text": "薬草の秘密を探る", "next": "herb_secret"},
+      {"text": "気にせず仕事をする", "next": "collect_herbs"}
+    ]
+  },
+"herb_secret": {
+    "text": "薬草は、錬金する事が不可能らしい",
+    "choices": [
+      {"text": "aaa", "next": "aaa1"},
+      {"text": "bbb", "next": "bbb1"}
+    ]
+  },
+
+
+  
+"battle": {
+  "text": "魔王が現れた！どうする？",
+  "choices": [
+    {"text": "薬草を投げる！", "next": "win"},
+    {"text": "逃げる", "next": "gameover"}
+  ]
+},
+"win": {
+  "text": "魔王は苦しみながら消えていった…勝利した！",
+  "choices": [{"text": "エンディングへ", "next": "end"}]
+},
+"gameover": {
+  "text": "魔王に捕まってしまった…",
+  "choices": [{"text": "最初から", "next": "start"}]
+}
+}

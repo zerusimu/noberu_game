@@ -1,0 +1,532 @@
+
+{
+  "zikokeihatu": {
+    "text": "理想的な生活を手に入れるために　まとめ",
+    "background": "haikei2.png",
+    "characters": [
+    ],
+    
+    "choices": [
+      {"text": "１章　お金を何に使うかを決めよう", "next": "zikokeihatu1syou"},
+      {"text": "２章　時間を何に使うかを決めよう", "next": "zikokeihatu2syou"},
+      {"text": "３章　長く続けて成果が出せるようになろう", "next": "zikokeihatu3syou"},
+      {"text": "４章　成功するまで何度も挑戦しよう", "next": "zikokeihatu4syou"},
+      {"text": "学習コラムに戻る", "next": "gakusyuu"}      
+    ]
+  }, 
+
+  "zikokeihatu1syou": {
+    "text": "１章　お金を何に使うかを決めよう",
+    "background": "haikei2.png",
+    "characters": [
+    ],
+    
+    "choices": [
+      {"text": "次に進む", "next": "zikokeihatu1syou2"}
+        
+    ]
+  },
+
+  "zikokeihatu1syou2": {
+    "text": "お金の使い道を考えることはとても大事です。今あるお金をどのように使うかを考える力は、私生活でも会社でも役に立ちます。",
+    "background": "haikei2.png",
+    "characters": [
+    ],
+    
+    "choices": [
+      {"text": "次に進む", "next": "zikokeihatu1syou3"}
+        
+    ]
+  },
+
+  "zikokeihatu1syou3": {
+    "text": "どこか節約したり稼ぎがより良いお仕事（副業含む）をしてみたり、色々工夫してみて、自分にあったお金の使い方を実践しましょう。",
+    "background": "haikei2.png",
+    "characters": [
+    ],
+    
+    "choices": [
+      {"text": "次に進む", "next": "zikokeihatu1syou4"}        
+    ]
+  },  
+
+
+  "zikokeihatu1syou4": {
+    "text": "また、新しい仕事をするために、もっと稼ぎをよくするために本やＡＩを使って勉強する。というのも選択肢に入ります。",
+    "background": "haikei2.png",
+    "characters": [
+    ],
+    
+    "choices": [
+      {"text": "次に進む", "next": "zikokeihatu1syou5"}        
+    ]
+  },  
+
+  "zikokeihatu1syou5": {
+    "text": "具体的に、高級ホテルに泊まってみたい、タワーマンションに住みたい。高級車を買ってみたいなどお金をかけて入手したいと思うこともあるかもしれません。",
+    "background": "haikei2.png",
+    "characters": [
+    ],
+    
+    "choices": [
+      {"text": "次に進む", "next": "zikokeihatu1syou6"}        
+    ]
+  },  
+
+ "zikokeihatu1syou6": {
+    "text": "全部を購入してお金が残ればいいですが、大富豪にならない限り全部を叶えるのは難しいでしょう。",
+    "background": "haikei2.png",
+    "characters": [
+    ],
+        "choices": [
+      {"text": "次に進む", "next": "zikokeihatu1syou7"}        
+    ]
+  },  
+
+ "zikokeihatu1syou7": {
+    "text": "高級なものを全部購入できる大富豪になりたいなら、お金の勉強は必要不可欠です。また、その生活ができるまでお金を上手く節約して稼いで増やしていく事ができた先の未来です。",
+    "background": "haikei2.png",
+    "characters": [
+    ],
+      "choices": [
+      {"text": "次に進む", "next": "zikokeihatu1syou8"}        
+    ]
+  },  
+
+ "zikokeihatu1syou8": {
+    "text": "物欲だけでは幸せになれなかったりもするので、本当にそれで満たされるのか、買って満足できるのかは常に考えてみてください。",
+    "background": "haikei2.png",
+    "characters": [
+    ],
+      "choices": [
+      {"text": "次に進む", "next": "zikokeihatu1syou9"}        
+    ]
+  },  
+
+ "zikokeihatu1syou9": {
+    "text": "幸せになるためには、お金もある程度必要です。結婚や住まいなど、どうしても叶えたい夢があるのは何も間違っていません。",
+    "background": "haikei2.png",
+    "characters": [
+    ],
+      "choices": [
+      {"text": "次に進む", "next": "zikokeihatu1syou10"}        
+    ]
+  },  
+
+   "zikokeihatu1syou10": {
+    "text": "ただ、普通に仕事で稼ぐだけだと限界もあると思います。投資や副業など稼ぐ力や増やし方を学んで十分な収入をえられるようになりましょう。",
+    "background": "haikei2.png",
+    "characters": [
+    ],
+      "choices": [
+      {"text": "次に進む", "next": "zikokeihatu1syou11"}        
+    ]
+  }, 
+
+
+   "zikokeihatu1syou11": {
+    "text": "お金を増やしたり、スキルアップにお金を使ったりしながら、お金に困らない収入を目指していきましょう。次章では時間の使い方について考えてみます。",
+    "background": "haikei2.png",
+    "characters": [
+    ],
+        "choices": [
+      {"text": "次の章進む", "next": "zikokeihatu2syou"},
+      {"text": "時間の一覧に戻る", "next": "zikokeihatu"},
+        {"text": "学習コラムに戻る", "next": "gakusyuu"}         
+    ]
+  },  
+
+
+
+
+ "zikokeihatu2syou": {
+    "text": "２章　時間を何に使うかを決めよう",
+    "background": "haikei2.png",
+    "characters": [
+    ],
+    
+    "choices": [
+      {"text": "次に進む", "next": "zikokeihatu2syou2"}
+    ]
+  },   
+
+  "zikokeihatu2syou2": {
+    "text": "時間の使い方もとても大切になります。その中で１番大切にしたいのが、睡眠の時間です。",
+    "background": "haikei2.png",
+    "characters": [
+    ],
+    
+    "choices": [
+      {"text": "次に進む", "next": "zikokeihatu2syou3"}
+    ]
+  },   
+ 
+
+  "zikokeihatu2syou3": {
+    "text": "睡眠をきっちりとってパフォーマンスをよくするのが良いです。仕事のほかにも、運動と学びにも時間を使っていきましょう。",
+    "background": "haikei2.png",
+    "characters": [
+    ],
+    
+    "choices": [
+      {"text": "次に進む", "next": "zikokeihatu2syou4"}
+    ]
+  },   
+ 
+
+  "zikokeihatu2syou4": {
+    "text": "仕事をしていて、パフォーマンスが下がったと感じたら、休む事も大事になります。むやみに長時間で仕事を終わらせるのではなく、同じ時間で仕事を終わらせるにはどうしたらよいかを考えましょう。",
+    "background": "haikei2.png",
+    "characters": [
+    ],
+    
+    "choices": [
+      {"text": "次に進む", "next": "zikokeihatu2syou5"}
+    ]
+  },   
+ 
+
+  "zikokeihatu2syou5": {
+    "text": "最初は短時間で仕事を終わらせることは困難でしょう。仕事を覚えていきながら、スキルアップすれば、少しずつ効率的に仕事を進められるようになります。",
+    "background": "haikei2.png",
+    "characters": [
+    ],
+    
+    "choices": [
+      {"text": "次に進む", "next": "zikokeihatu2syou6"}
+    ]
+  },   
+ 
+  "zikokeihatu2syou6": {
+    "text": "仕事以外にも、学びの時間を作りましょう。今は個人でもお金を稼ぐことが出来るようになってきました。そのためのスキルを身につけるうえで、勉強は大切になります。",
+    "background": "haikei2.png",
+    "characters": [
+    ],
+    
+    "choices": [
+      {"text": "次に進む", "next": "zikokeihatu2syou7"}
+    ]
+  },     
+ 
+  "zikokeihatu2syou7": {
+    "text": "よく働き、よく学び、よく食べ、よく運動して、よく休み、よく寝る。シンプルですが規則正しい生活が一番大切です。",
+    "background": "haikei2.png",
+    "characters": [
+    ],
+    
+    "choices": [
+      {"text": "次に進む", "next": "zikokeihatu2syou8"}
+    ]
+  },   
+ 
+  "zikokeihatu2syou8": {
+    "text": "１日１日の積み重ねが、成功への一歩になります。一歩ずつ少しずつ成長していきましょう。",
+    "background": "haikei2.png",
+    "characters": [
+    ],
+    
+    "choices": [
+      {"text": "次に進む", "next": "zikokeihatu2syou9"}
+    ]
+  },   
+ 
+  "zikokeihatu2syou9": {
+    "text": "将来をよくするためには、日ごろの行動が大事になってきます。何をやって何をやらないか。どうなりたいか。今のままで十分か？自分と見つめあって決めてみてください。",
+    "background": "haikei2.png",
+    "characters": [
+    ],
+    
+    "choices": [
+      {"text": "次の章に進む", "next": "zikokeihatu3syou"},
+      {"text": "学習コラムに戻る", "next": "gakusyuu"},
+      {"text": "トップに戻る", "next": "top"}
+    ]
+  },   
+ 
+  "zikokeihatu3syou": {
+    "text": "３章　長く続けて成果が出せるようになろう",
+    "background": "haikei2.png",
+    "characters": [
+    ],
+    
+    "choices": [
+      {"text": "次に進む", "next": "zikokeihatu3syou2"}
+    ]
+  },   
+ 
+ 
+  "zikokeihatu3syou2": {
+    "text": "人は短い時間で成果の出るものを好むと思います。しかし、それで成果が出ると分かれば多くの参入者が現れ、あっという間に成果がでなくなります。",
+    "background": "haikei2.png",
+    "characters": [
+    ],
+    
+    "choices": [
+      {"text": "次に進む", "next": "zikokeihatu3syou3"}
+    ]
+  },   
+  
+  "zikokeihatu3syou3": {
+    "text": "苦にならない作業で、お金に結び付ける方法を模索したり、AIを使いこなしてみたり。色々工夫をすることで成果が出なかったものが収入になったりするかもしれません。",
+    "background": "haikei2.png",
+    "characters": [
+    ],
+    
+    "choices": [
+      {"text": "次に進む", "next": "zikokeihatu3syou4"}
+    ]
+  },   
+  
+  "zikokeihatu3syou4": {
+    "text": "毎日同じことを繰り返せば成果が出るようになるとは限りません。色々模索して考えながらトライ＆エラーを繰り返さないと成果に結びつきません。正しい努力をする必要があるのです。",
+    "background": "haikei2.png",
+    "characters": [
+    ],
+    
+    "choices": [
+      {"text": "次に進む", "next": "zikokeihatu3syou5"}
+    ]
+  },   
+  
+  "zikokeihatu3syou5": {
+    "text": "トライ＆エラーで問題解決の方法を身につけることが出来たのであれば、スキルアップしている証です。そうなればしめたもの。成果がでるまで続けるだけです。",
+    "background": "haikei2.png",
+    "characters": [
+    ],
+    
+    "choices": [
+      {"text": "次に進む", "next": "zikokeihatu3syou6"}
+    ]
+  },   
+  
+  
+  "zikokeihatu3syou6": {
+    "text": "成果が出るまで続けるためには、習慣の力が大切です。毎日短い時間でいいので続けていきましょう。",
+    "background": "haikei2.png",
+    "characters": [
+    ],
+    
+    "choices": [
+      {"text": "次に進む", "next": "zikokeihatu3syou7"}
+    ]
+  },   
+  
+  "zikokeihatu3syou7": {
+    "text": "途中でやめてしまっても、落ち込む必要はありません。また、再開すれば良いのです。どうすれば続けられるか、苦痛でやりたくなければ別の方法はないのか。行動していく事が大事です。",
+    "background": "haikei2.png",
+    "characters": [
+    ],
+    
+    "choices": [
+      {"text": "次に進む", "next": "zikokeihatu3syou8"}
+    ]
+  },   
+  
+"zikokeihatu3syou8": {
+    "text": "他人と比較する必要はありません。過去の自分より今の自分の方が成長していると思えればいいのです。成長していった先に素晴らしい未来が待っています。",
+    "background": "haikei2.png",
+    "characters": [
+    ],
+    
+    "choices": [
+      {"text": "次に進む", "next": "zikokeihatu3syou9"}
+    ]
+  },   
+  
+"zikokeihatu3syou9": {
+    "text": "継続する力はとても大事です。目に見える成果が出ないときは、苦しいこともあります。それでも続けられる事があれば、それは才能といえます。",
+    "background": "haikei2.png",
+    "characters": [
+    ],
+    
+    "choices": [
+      {"text": "次に進む", "next": "zikokeihatu3syou10"}
+    ]
+  },   
+  
+"zikokeihatu3syou10": {
+    "text": "ただ闇雲に時間だけ使うのではなく、どうしたらよくなるか？　この視点で考えることができてから時間を使えば成果がでます。色々試行錯誤しながら、コツコツ上達していきましょう。",
+    "background": "haikei2.png",
+    "characters": [
+    ],
+    
+    "choices": [
+      {"text": "次の章に進む", "next": "zikokeihatu4syou"},
+      {"text": "学習コラムに戻る", "next": "gakusyuu"},
+      {"text": "トップに戻る", "next": "top"}
+    ]
+  },   
+  
+  "zikokeihatu4syou": {
+    "text": "４章　成功するまで何度も挑戦しよう",
+    "background": "haikei2.png",
+    "characters": [
+    ],
+    
+    "choices": [
+      {"text": "次に進む", "next": "zikokeihatu4syou2"}
+    ]
+  },   
+
+  "zikokeihatu4syou2": {
+    "text": "１発で成功することはほとんどありません。成功者も多くの失敗をしています。失敗してもあきらめなければ、少しずつ問題解決への糸口が見えてきます。",
+    "background": "haikei2.png",
+    "characters": [
+    ],
+    
+    "choices": [
+      {"text": "次に進む", "next": "zikokeihatu4syou3"}
+    ]
+  },   
+
+ "zikokeihatu4syou3": {
+    "text": "向いていること、向いてないこと、それはやってみないと分かりません。興味があるのであれば、まずはやってみることをおすすめします",
+    "background": "haikei2.png",
+    "characters": [
+    ],
+    
+    "choices": [
+      {"text": "次に進む", "next": "zikokeihatu4syou4"}
+    ]
+  },   
+
+ "zikokeihatu4syou4": {
+    "text": "たくさん試して、どれもダメだった。ということもありえますが、それでも、たくさん行動することが出来てます。どうしたら成功するのか？調べたり考えたり色々模索してみましょう。",
+    "background": "haikei2.png",
+    "characters": [
+    ],
+    
+    "choices": [
+      {"text": "次に進む", "next": "zikokeihatu4syou5"}
+    ]
+  },   
+
+ "zikokeihatu4syou5": {
+    "text": "成功するまであきらめない、これが成功者へ導くための考え方です。多くの失敗があっても色んな可能性を考えてみましょう。",
+    "background": "haikei2.png",
+    "characters": [
+    ],
+    
+    "choices": [
+      {"text": "次に進む", "next": "zikokeihatu4syou6"}
+    ]
+  },   
+
+   "zikokeihatu4syou6": {
+    "text": "それでも　解決策が見つからなかったり、向いてない気がしてきたり、さまざまな事で挫折することもあるかもしれません。",
+    "background": "haikei2.png",
+    "characters": [
+    ],
+    
+    "choices": [
+      {"text": "次に進む", "next": "zikokeihatu4syou7"}
+    ]
+  },   
+
+   "zikokeihatu4syou7": {
+    "text": "では、仮にその挫折でどんな事が学べるのでしょうか？",
+    "background": "haikei2.png",
+    "characters": [
+    ],
+    
+    "choices": [
+      {"text": "次に進む", "next": "zikokeihatu4syou8"}
+    ]
+  },  
+
+     "zikokeihatu4syou8": {
+    "text": "挫折が何も悪いわけではありません。上手く行かない事を見つけられたのは、大きな成果なのです。",
+    "background": "haikei2.png",
+    "characters": [
+    ],
+    
+    "choices": [
+      {"text": "次に進む", "next": "zikokeihatu4syou9"}
+    ]
+  },  
+
+  
+     "zikokeihatu4syou9": {
+    "text": "落ち込む必要もありません。どうしてもショックで立ち直れなかったら、好きな事をして立ち直る時間を作ることをしても良いのです。",
+    "background": "haikei2.png",
+    "characters": [
+    ],
+
+   "choices": [
+      {"text": "次に進む", "next": "zikokeihatu4syou10"}
+    ]
+  },  
+
+    "zikokeihatu4syou10": {
+    "text": "立ち直る事ができたら、次はどんなことをしてみるのかを考えてみましょう。〇〇では上手くいかなかったからこれは失敗しそうだな、こっちはまだ試してないからやってみようかな？",
+    "background": "haikei2.png",
+    "characters": [
+    ],
+
+   "choices": [
+      {"text": "次に進む", "next": "zikokeihatu4syou11"}
+    ]
+  },  
+
+    "zikokeihatu4syou11": {
+  "text": "色んな事を試しみて、向き不向きを再認識してみましょう。やり方を変えたり、ＡＩを活用してみたり、友人や家族に聞いてみたり。意外なところにヒントが隠れてたりします。",
+    "background": "haikei2.png",
+    "characters": [
+    ],
+
+   "choices": [
+      {"text": "次に進む", "next": "zikokeihatu4syou12"}
+    ]
+  },  
+
+    "zikokeihatu4syou12": {
+  "text": "あきらめなければ、夢は叶います。継続とトライ＆エラーさえ出来れば。プライベートも仕事も、自分のペースでよくしていければいいのです。",
+    "background": "haikei2.png",
+    "characters": [
+    ],
+
+   "choices": [
+      {"text": "次に進む", "next": "zikokeihatu4syou13"}
+    ]
+  },  
+
+      "zikokeihatu4syou13": {
+    "text": "夢の実現に向けて、少しずつ頑張ってみましょう。長い人生です。挫折も失敗もあるでしょう。でも、毎日あきらめなければきっと楽しい毎日を過ごせる日が来ます。自分の力だけに頼らず、時には周りに助けを求めてみるのもありかもしれません。",
+    "background": "haikei2.png",
+    "characters": [
+    ],
+
+   "choices": [
+      {"text": "次に進む", "next": "zikokeihatu4syou14"}
+    ]
+  },  
+
+       "zikokeihatu4syou14": {
+    "text": "毎日少しずつ成長を続けてれば、何もしなかった人においつき追い越す日が来ます。いつか挫折も笑い話にできる日が来ます。今努力できれば、１か月、半年、１年間・・・。努力する時間をのばすこともできるかもしれません。ぜひ、あきらめず挑戦して大きな夢を叶えてみてください",
+    "background": "haikei2.png",
+    "characters": [
+    ],
+    "choices": [
+      {"text": "理想の生活の章　終わり　学習にもどる", "next": "gakusyuu"},
+        {"text": "最初の画面に戻る", "next": "top"}
+
+    ]
+  },  
+
+
+  "aaa": {
+    "text": "aaa",
+    "background": "haikei2.png",
+    "characters": [
+    ],
+    
+    "choices": [
+      {"text": "次に進む", "next": "okane1syou3"}
+        
+    ]
+  }
+
+
+
+
+}

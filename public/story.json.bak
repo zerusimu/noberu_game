@@ -1,0 +1,353 @@
+{
+  "top": {
+    "text": "薬屋見習いの冒険",
+    "background": "haikei2.png",
+    "characters": [
+    ],
+    
+    "choices": [
+      {"text": "最初から", "next": "start"},
+      {"text": "初めての冒険", "next": "start23"}
+    ]
+  },
+
+
+  "start": {
+    "text": "錬金術師や魔法使いや勇者になる人もいるこの都市で生まれた。だけど、私は何をやってもダメ。今できる事といえば、薬草を採取する事だけ・・・。薬草を配合してポーションを作れるようになりたいけど、まだ上手く作れない。いつか、みんなのためになれる人になりたい。そのために、ここの道具屋で働いている。もう２年たつのにポーションを作れた試しもない",
+    "background": "haikei2.png",
+
+    "characters": [
+    ],
+    
+    "choices": [
+      {"text": "次のページに進む", "next": "start2"}
+    ]
+  },
+
+
+
+
+  "start2": {
+    "text": "そんなある日の事だった。この平和がいつまでも続くものだと思ってた。この都市で１番の勇者が魔王にやられたのだ。装備もしっかりしていた、能力も勇者の中では桁違いだった。なのに、その勇者はやられてしまった。回復薬もパーティー編成もバッチリだった。後ろにいる魔法使いを庇ってやられてしまったらしい。逃げ延びた魔法使いは言う。「今まで戦ってきた魔王とはレベルが違う。この都市にも魔王が攻めて来るぞ」",
+    "background": "haikei2.png",
+    "characters": [
+    ],
+    "choices": [
+      {"text": "次のページに進む", "next": "start3"}
+    ]
+  },
+  
+  "start3": {
+    "text": "魔王の力は次第に増している！？どうしたら良いんだ。そうだ、誰か異世界から勇者を召喚しろー！魔王の手から逃れられるほど強力な勇者を召喚するんだ！魔王を倒せたら１億ジュエルの報酬を用意する。緊急事態だ、誰か頼む",
+    "background": "haikei2.png",
+    "characters": [
+      { "image": "王様1.png", "position": "right" , "name": "王様", "speaking": true},
+      { "image": "主人公2.png", "position": "right" , "name": "リナ"}
+
+    ],
+    "choices": [
+      {"text": "次のページに進む", "next": "start4"}
+    ]
+  },
+  
+"start4": {
+    "text": "「勇者の召喚だって！？もしかしたら、私のお師匠様なら、勇者を召喚できるかも知れない！今は道具屋の店長だけど、昔は錬金術召喚士として数々の苦難を乗り越えてきたって言ってたし。お師匠様、魔王を倒すほどの勇者を召喚することってできる？この都市で最強の錬金術召喚士のお師匠様なら、きっと」",
+    "background": "haikei2.png",
+    "characters": [
+      { "image": "主人公2.png", "position": "right" , "name": "リナ", "speaking": true}
+    ],
+    "choices": [
+      {"text": "次のページに進む", "next": "start5"}
+    ]
+  },
+  
+"start5": {
+    "text": "「話は分かった。でも、勇者がやられたんだろう？だから、勇者を召喚しても魔王を倒せないと思ってる」",
+    "background": "haikei2.png",
+    "characters": [
+      { "image": "主人公2.png", "position": "right" ,"name": "リナ" },
+      { "image": "師匠1.png", "position": "right" , "name": "師匠",  "speaking": true}
+    ],
+    "choices": [
+      {"text": "次のページに進む", "next": "start6"}
+    ]
+  },
+  
+  
+  "start6": {
+    "text": "「勇者ではダメ？となると、打つてなしですか？」",
+    "background": "haikei2.png",
+    "characters": [
+      { "image": "主人公2.png", "position": "right" ,"name": "リナ",  "speaking": true },
+      { "image": "師匠1.png", "position": "right" , "name": "師匠"}
+    ],
+    "choices": [
+      {"text": "次のページに進む", "next": "start7"}
+    ]
+  },
+  
+
+  "start7": {
+    "text": "「そうでもない。ただ、動物では魔王を倒せてもその後言うことを聞かない可能性もあるからダメ。機械は命を宿しておらず召喚出来ないからダメ。人間の最善手は勇者になって勇者では魔王を倒せないからダメ。となれば、召喚するのは一択だ」",
+    "background": "haikei2.png",
+    "characters": [
+      { "image": "主人公2.png", "position": "right" ,"name": "リナ" },
+      { "image": "師匠1.png", "position": "right" , "name": "師匠",  "speaking": true}
+    ],
+    "choices": [
+      {"text": "次のページに進む", "next": "start8"}
+    ]
+  },
+  
+  "start8": {
+    "text": "エルフとかですか？もしくはドワーフ？別種族の者だと、やっぱり魔王側に着いちゃうんでしょうか？",
+    "background": "haikei2.png",
+   "characters": [
+      { "image": "主人公2.png", "position": "right" ,"name": "リナ",  "speaking": true },
+      { "image": "師匠1.png", "position": "right" , "name": "師匠"}
+    ],
+    "choices": [
+      {"text": "次のページに進む", "next": "start9"}
+    ]
+  },
+  
+  "start9": {
+    "text": "「別種族も魔王を良く思ってない連中も多い。だが今の魔王は、はるかに強い。召喚すべきは、神だろう。」",
+    "background": "haikei2.png",
+    "characters": [
+      { "image": "主人公2.png", "position": "right" ,"name": "リナ"},
+      { "image": "師匠1.png", "position": "right" , "name": "師匠",  "speaking": true }
+    ],
+    "choices": [
+      {"text": "次のページに進む", "next": "start10"}
+    ]
+  },
+  
+  "start10": {
+    "text": "「神！？すごい、さすがお師匠様です。それなら勝てそうです！」",
+    "background": "haikei2.png",
+    "characters": [
+      { "image": "主人公2.png", "position": "right" ,"name": "リナ",  "speaking": true },
+      { "image": "師匠1.png", "position": "right" , "name": "師匠"}
+    ],
+    "choices": [
+      {"text": "次のページに進む", "next": "start11"}
+    ]
+  },
+  
+  "start11": {
+    "text": "「ただし、神は実態を持たず、体は転送出来ない。その代わりに神の人格を直接的に身体へと授けることになる。」",
+    "background": "haikei2.png",
+    "characters": [
+      { "image": "主人公2.png", "position": "right" ,"name": "リナ"},
+      { "image": "師匠1.png", "position": "right" , "name": "師匠",  "speaking": true }
+    ],
+    "choices": [
+      {"text": "次のページに進む", "next": "start12"}
+    ]
+  },
+  
+  "start12": {
+    "text": "「神の人格を宿す？じゃあ、弱者に神を宿しちゃったら魔王は倒せないじゃないですか？」",
+    "background": "haikei2.png",
+    "characters": [
+      { "image": "主人公2.png", "position": "right" ,"name": "リナ",  "speaking": true },
+      { "image": "師匠1.png", "position": "right" , "name": "師匠"}
+    ],
+    "choices": [
+      {"text": "次のページに進む", "next": "start13"}
+    ]
+  },
+
+  "start13": {
+    "text": "「誰の体に宿るかは、神に選択肢を委ねた方がいい。魔王を倒した後の事も神は考える事ができる。最善の一手は神のみが知っている」",
+    "background": "haikei2.png",
+    "characters": [
+      { "image": "主人公2.png", "position": "right" ,"name": "リナ"},
+      { "image": "師匠1.png", "position": "right" , "name": "師匠",  "speaking": true }
+    ],
+    "choices": [
+      {"text": "次のページに進む", "next": "start14"}
+    ]
+  },
+
+  "start14": {
+    "text": "「早速召喚しよう。これが私の最後の錬金召喚になるだろう。神よ、この世界の者で魔王を倒せそうなものはいるか？」",
+    "background": "haikei2.png",
+  "characters": [
+      { "image": "主人公2.png", "position": "right" ,"name": "リナ"},
+      { "image": "師匠1.png", "position": "right" , "name": "師匠",  "speaking": true }
+    ],
+    "choices": [
+      {"text": "次のページに進む", "next": "start15"}
+    ]
+  },
+
+  "start15": {
+    "text": "「魔王を１００％倒せるとっておきの人物がおるぞ。最適任な奴が」",
+    "background": "haikei2.png",
+    "characters": [
+      { "image": "主人公2.png", "position": "right" ,"name": "リナ"},
+      { "image": "神1.png", "position": "right" ,"name": "神", "speaking": true },
+      { "image": "師匠1.png", "position": "right" , "name": "師匠"  }
+    ],
+    "choices": [
+      {"text": "次のページに進む", "next": "start16"}
+    ]
+  },
+
+
+  "start16": {
+    "text": "「おぉ、ぜひその人物を教えてくれ。その者の肉体に同化させる」",
+    "background": "haikei2.png",
+   "characters": [
+      { "image": "主人公2.png", "position": "right" ,"name": "リナ"},
+      { "image": "神1.png", "position": "right" ,"name": "神" },
+      { "image": "師匠1.png", "position": "right" , "name": "師匠" , "speaking": true  }
+    ],
+    "choices": [
+      {"text": "次のページに進む", "next": "start17"}
+    ]
+  },
+
+
+  "start17": {
+    "text": "「そこのリナが最適解だ、今後の被害も１番抑えられる。」",
+    "background": "haikei2.png",
+    "characters": [
+      { "image": "主人公2.png", "position": "right" ,"name": "リナ"},
+      { "image": "神1.png", "position": "right" ,"name": "神", "speaking": true },
+      { "image": "師匠1.png", "position": "right" , "name": "師匠"  }
+    ],
+    "choices": [
+      {"text": "次のページに進む", "next": "start18"}
+    ]
+  },
+
+  "start18": {
+    "text": "「ええー？私ですか？スライムすら倒せませんよ？まだ、お城を警備する兵士さんや、ハイエルフの方が適任だと思うんですが？」",
+    "background": "haikei2.png",
+    "characters": [
+      { "image": "主人公2.png", "position": "right" ,"name": "リナ", "speaking": true },
+      { "image": "神1.png", "position": "right" ,"name": "神"},
+      { "image": "師匠1.png", "position": "right" , "name": "師匠"  }
+    ],
+    "choices": [
+      {"text": "次のページに進む", "next": "start19"}
+    ]
+  },
+
+
+  "start19": {
+    "text": "「その者では、魔王を倒せる確率は万に一つもない。正攻法ではダメなんだ。この役目はお前にしか出来ない」",
+    "background": "haikei2.png",
+    "characters": [
+      { "image": "主人公2.png", "position": "right" ,"name": "リナ"},
+      { "image": "神1.png", "position": "right" ,"name": "神", "speaking": true },
+      { "image": "師匠1.png", "position": "right" , "name": "師匠"  }
+    ],
+    "choices": [
+      {"text": "次のページに進む", "next": "start20"}
+    ]
+  },
+
+  "start20": {
+    "text": "「も、もしかして私に勇者になる素質でもあるんですか？」",
+    "background": "haikei2.png",
+    "characters": [
+      { "image": "主人公2.png", "position": "right" ,"name": "リナ", "speaking": true },
+      { "image": "神1.png", "position": "right" ,"name": "神"},
+      { "image": "師匠1.png", "position": "right" , "name": "師匠"  }
+    ],
+    "choices": [
+      {"text": "次のページに進む", "next": "start21"}
+    ]
+  },
+
+
+  "start21": {
+    "text": "「そうか、お前は何も知らないんだな。よし、魔王を倒した後もしばらくお前と同行することに決めた。良いな、召喚士よ。」",
+    "background": "haikei2.png",
+    "characters": [
+      { "image": "主人公2.png", "position": "right" ,"name": "リナ"},
+      { "image": "神1.png", "position": "right" ,"name": "神", "speaking": true },
+      { "image": "師匠1.png", "position": "right" , "name": "師匠"  }
+    ],
+    "choices": [
+      {"text": "次のページに進む", "next": "start22"}
+    ]
+  },
+
+
+  "start22": {
+    "text": "「合点承知。でりゃぁぁぁぁ！！」",
+    "background": "haikei2.png",
+    "characters": [
+      { "image": "主人公2.png", "position": "right" ,"name": "リナ"},
+      { "image": "神1.png", "position": "right" ,"name": "神"},
+      { "image": "師匠1.png", "position": "right" , "name": "師匠" , "speaking": true  }
+    ],
+    "choices": [
+      {"text": "次のページに進む", "next": "start23"}
+    ]
+  },
+
+  "start23": {
+    "text": "薬草拾いのリナに不思議な力が宿った。これは、最弱だった私の人生を変えた転換期だった。特に肉体に変化はないけど、神と共に進むことになった。なんで私を選んだのかの理由もわからないまま。とりあえず王様の元に魔王を倒しに行くことを伝えに行くのだった。",
+    "background": "haikei2.png",
+    "characters": [
+      { "image": "主人公2.png", "position": "right" ,"name": "リナ"},
+      { "image": "神1.png", "position": "right" ,"name": "神"},
+      { "image": "師匠1.png", "position": "right" , "name": "師匠"  }
+    ],
+    "choices": [
+      {"text": "開始画面に戻る", "next": "top"}
+    ]
+  },
+ 
+
+
+
+
+  "collect_herbs": {
+    "text": "いつものように薬草を採取する。",
+    "character": "sample3.png",
+    "characterPosition": "right",
+    "choices": [
+      {"text": "もう少し集める", "next": "more_herbs"},
+      {"text": "村に戻る", "next": "village"}
+    ]
+  },
+  "walk": {
+    "text": "村の人々は、なぜか薬草を使おうとしない…",
+    "choices": [
+      {"text": "薬草の秘密を探る", "next": "herb_secret"},
+      {"text": "気にせず仕事をする", "next": "collect_herbs"}
+    ]
+  },
+"herb_secret": {
+    "text": "薬草は、錬金する事が不可能らしい",
+    "choices": [
+      {"text": "aaa", "next": "aaa1"},
+      {"text": "bbb", "next": "bbb1"}
+    ]
+  },
+
+
+  
+"battle": {
+  "text": "魔王が現れた！どうする？",
+  "choices": [
+    {"text": "薬草を投げる！", "next": "win"},
+    {"text": "逃げる", "next": "gameover"}
+  ]
+},
+"win": {
+  "text": "魔王は苦しみながら消えていった…勝利した！",
+  "choices": [{"text": "エンディングへ", "next": "end"}]
+},
+"gameover": {
+  "text": "魔王に捕まってしまった…",
+  "choices": [{"text": "最初から", "next": "start"}]
+}
+}

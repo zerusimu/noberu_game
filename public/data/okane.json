@@ -1,0 +1,725 @@
+
+{
+  "gakusyuu": {
+    "text": "学習コラム",
+    "background": "haikei2.png",
+    "characters": [
+    ],
+    
+    "choices": [
+      {"text": "お金持ちに近づく方法", "next": "okane"},
+      {"text": "お金よりも大事な事、健康を意識しよう", "next": "kenkou"},
+      {"text": "時間の使い方が上手い人は何してる？", "next": "zikan"},
+       {"text": "理想的な生活を手に入れるために", "next": "zikokeihatu"}, 
+        {"text": "最初の画面に戻る", "next": "top"}      
+    ]
+  } , 
+
+  "okane": {
+    "text": "お金持ちに近づく方法　目次",
+    "background": "haikei2.png",
+    "characters": [
+    ],
+    
+    "choices": [
+      {"text": "１章　お金とは何だろう？", "next": "okane1syou"}, 
+      {"text": "２章　どんな事でお金を稼げるのかを調べよう", "next": "okane2syou"},
+      {"text": "３章　失敗しても良いように、初期投資０円で稼げそうなものはないか考えよう", "next": "okane3syou"},
+        {"text": "４章　支出を減らす事も大事", "next": "okane4syou"},
+            {"text": "学習コラムの目次に戻る", "next": "gakusyuu"},      
+      {"text": "最初の画面に戻る", "next": "top"}     
+    ]
+  } ,
+
+  
+  "okane1syou": {
+    "text": "１章　お金とは何だろう？",
+    "background": "haikei2.png",
+    "characters": [
+    ],
+    
+    "choices": [
+      {"text": "次に進む", "next": "okane1syou1"}
+        
+    ]
+  },
+
+
+  
+  "okane1syou1": {
+    "text": "お金とは何だろう？お金も生きていくのに必要だとは分かるけど、そもそもお金とは何でしょうか。深く理解して、どのくらいお金が欲しいのかを理解しましょう。",
+    "background": "haikei2.png",
+    "characters": [
+    ],
+    
+    "choices": [
+      {"text": "次に進む", "next": "okane1syou2"}
+        
+    ]
+  },
+
+  "okane1syou2": {
+    "text": "古い昔の時代では、お金ではなく物と物との交換でした。稲作してた人がりんごとお米を交換するようなイメージです。ただ、りんごはあるけど、お肉が欲しい、米とは交換したくない、でも交換してくれる人がいない。探し回ったらお腹がすいた・・・しょうがない、りんごを食べよう。しかし、食べ終わった後に肉と交換してくれる人が現れることも。物物交換は大変なんです。",
+    "background": "haikei2.png",
+    "characters": [
+    ],
+    
+    "choices": [
+      {"text": "次に進む", "next": "okane1syou3"}
+        
+    ]
+  }, 
+
+  "okane1syou3": {
+    "text": "現代でも、国によって生産できる品物が違ったり、文化が違って価値観が異なります。その国でのみ使える通貨を使って、自分の国の価値を壊さず、お金を支払って物を買う事ができます。",
+    "background": "haikei2.png",
+    "characters": [
+    ],
+    
+    "choices": [
+      {"text": "次に進む", "next": "okane1syou4"}
+        
+    ]
+  }, 
+
+  "okane1syou4": {
+    "text": "日本でも、都道府県が違ったり、場所によって物の価値が変化します。店によっても値段が違ったり、同じりんごでも、高級なりんごから激安なりんごまで様々あります。毎日高級なりんごを食べたければ、お金はたくさん必要になるでしょう。人によってお金は、どの程度必要なのか全く異なります。",
+    "background": "haikei2.png",
+    "characters": [
+    ],
+    
+    "choices": [
+      {"text": "次に進む", "next": "okane1syou5"}
+        
+    ]
+  }, 
+
+  "okane1syou5": {
+    "text": "もし、あなたがお金をたくさん稼いで、美味しいもの、海外旅行、車、家、趣味など色々お金を使って豪華な毎日を送りたい場合、いくらぐらいお金がかかるのか調べてみましょう。お金を稼いでやりたい目的がなければ、無理にお金を稼ぐ必要もないのです。",
+    "background": "haikei2.png",
+    "characters": [
+    ],
+    
+    "choices": [
+      {"text": "次に進む", "next": "okane1syou6"}
+        
+    ]
+  }, 
+
+
+  "okane1syou6": {
+    "text": "どのくらいのお金が必要か分かったら、今度はどうやってそのお金を稼ぐ事ができるのかを知りましょう。次の章で、お金を稼ぐための考え方を解説します。",
+    "background": "haikei2.png",
+    "characters": [
+    ],
+    
+    "choices": [
+      {"text": "次の章に進む", "next": "okane2syou"} ,
+      {"text": "お金の目次に戻る", "next": "okane"},
+      {"text": "学習コラムの目次に戻る", "next": "gakusyuu"}
+    ]
+  }, 
+
+  "okane2syou": {
+    "text": "２章　どんな事でお金を稼げるのかを調べよう",
+    "background": "haikei2.png",
+    "characters": [
+    ],
+    
+    "choices": [
+      {"text": "次に進む", "next": "okane2syou2"} 
+    ]
+  }, 
+
+  "okane2syou2": {
+    "text": "職業も、お金を稼ぎやすい職業とあまり稼げない職業があります。日本では稼ぎにくい職業でも海外では稼げる職業になる事もあります。また、時代によって必要とされる仕事も変化します。",
+    "background": "haikei2.png",
+    "characters": [
+    ],
+    
+    "choices": [
+      {"text": "次に進む", "next": "okane2syou3"} 
+    ]
+  }, 
+
+  "okane2syou3": {
+    "text": "今はAIも活用されており、どんどん進化して行っている時代です。この先も仕事としてあるのか？給料はどう変化していくのかを考える事で、将来どうなりたいのかを決断できるようになることが大事です。",
+    "background": "haikei2.png",
+    "characters": [
+    ],
+    
+    "choices": [
+      {"text": "次に進む", "next": "okane2syou4"} 
+    ]
+  }, 
+
+  "okane2syou4": {
+    "text": "そのためには、本を読んだり、ニュースを見たり、SNSを活用して調べたり、googleで検索したり、さまざまな事で調べる事ができます。人材不足に悩む職業は給料も上がりますし、なりたい人が大勢いて溢れている職種はお金が稼ぎにくくなります。",
+    "background": "haikei2.png",
+    "characters": [
+    ],
+    
+    "choices": [
+      {"text": "次に進む", "next": "okane2syou5"} 
+    ]
+  }, 
+
+  "okane2syou5": {
+    "text": "お金とは別に楽しさで仕事を選ぶ事も出来ます。もしその仕事をしていてスキルアップも望めそうなら、さらなる仕事のランクを上げていく事も出来ます。最高なのは、お金ももらえて好きな職業で働き続けられる事だと思います。そのために必要な事は、本を読む事、実際にやってみる事、同じ失敗はしないように工夫することです。",
+    "background": "haikei2.png",
+    "characters": [
+    ],
+    
+    "choices": [
+      {"text": "次に進む", "next": "okane2syou6"} 
+    ]
+  }, 
+
+
+  "okane2syou6": {
+    "text": "また、同じ職種でも働く会社によって、待遇が異なります。社長さんが、社員の給料をどのぐらい出すのかを決めているからです。また、利益の出やすい会社もあれば、利益の出てない会社もあります。",
+    "background": "haikei2.png",
+    "characters": [
+    ],
+    
+    "choices": [
+      {"text": "次に進む", "next": "okane2syou7"} 
+    ]
+  }, 
+
+
+  "okane2syou7": {
+    "text": "どうしてこんな違いが出てくるのでしょうか？売っている商品が良いのか、立地が良いのか、広告などの宣伝が良いのか。良い社員に恵まれているのか、会社のマニュアルが優れているのか。様々な要因はありますが、その中でも市場規模（しじょうきぼ）というのが大事になってきます。",
+    "background": "haikei2.png",
+    "characters": [
+    ],
+    
+    "choices": [
+      {"text": "次に進む", "next": "okane2syou8"} 
+    ]
+  }, 
+
+
+  "okane2syou8": {
+    "text": "市場規模とは、その業界でいくらの売り上げが全体としてあるか、というものです。例えば、オセロと将棋だったらどちらがより稼ぎやすいかイメージつくでしょうか？",
+    "background": "haikei2.png",
+    "characters": [
+    ],
+    
+    "choices": [
+      {"text": "次に進む", "next": "okane2syou9"} 
+    ]
+  }, 
+
+
+  "okane2syou9": {
+    "text": "オセロの大会で優勝した時の賞金は、およそ５０万円です。将棋で優勝した時の賞金は、最大で４４００万円です。オセロをするより、将棋のプロになった方がより稼げるのです。",
+    "background": "haikei2.png",
+    "characters": [
+    ],
+    
+    "choices": [
+      {"text": "次に進む", "next": "okane2syou10"} 
+    ]
+  }, 
+
+
+  "okane2syou10": {
+    "text": "しかし、将棋のタイトルを全て取っても獲得賞金は２億円に届きません。野球やサッカー、テニス、バスケットなどのスポーツで活躍するプロ選手の方が市場規模は大きいのです。",
+    "background": "haikei2.png",
+    "characters": [
+    ],
+    
+    "choices": [
+      {"text": "次に進む", "next": "okane2syou11"} 
+    ]
+  }, 
+
+
+  "okane2syou11": {
+    "text": "では、どうやったらそんなお金を稼ぐトップの人になれるのでしょうか？まず前提として、やってて楽しいことが条件です。毎日ずっとやり続けても苦痛にならないくらい、練習することが楽しい事が大事な条件です。",
+    "background": "haikei2.png",
+    "characters": [
+    ],
+    
+    "choices": [
+      {"text": "次に進む", "next": "okane2syou12"} 
+    ]
+  }, 
+
+
+  "okane2syou12": {
+    "text": "その次に、トップレベルになるためにはどんな練習が必要なのかを考えてトレーニング（勉強する）事が大切です。焼きそばをただ焼いて１０年の人と、焼きそば屋の名店を見習いとしてバイトに入って美味しい焼きそばの作り方を３年間学んだ人と、どっちが美味しい焼きそばが作れると思いますか？",
+    "background": "haikei2.png",
+    "characters": [
+    ],
+    
+    "choices": [
+      {"text": "次に進む", "next": "okane2syou13"} 
+    ]
+  }, 
+
+
+  "okane2syou13": {
+    "text": "恐らく、後者の方が焼きそばをより美味しく作れると考えるのではないでしょうか？スポーツも同じです。どんな練習に取り組むべきなのか、ケガをしないようにする丈夫な体づくりはどうしたら良いか。受験勉強も、どんな勉強をすれば合格できる学力がつくのか、点数が取りやすい問題はどこなのか、その勉強を身につけるまでどのくらいの問題を解けるようになったら良いのか。",
+    "background": "haikei2.png",
+    "characters": [
+    ],
+    
+    "choices": [
+      {"text": "次に進む", "next": "okane2syou14"} 
+    ]
+  }, 
+
+
+  "okane2syou14": {
+    "text": "自分で調べたり、専門家（先生）に意見を聞いたりしながら勉強する事が大切です。大人になった後も学んだり、行動に移せず会社の仕事のみになってくると、収入にも限界が訪れます。",
+    "background": "haikei2.png",
+    "characters": [
+    ],
+    
+    "choices": [
+      {"text": "次に進む", "next": "okane2syou15"} 
+    ]
+  }, 
+
+ "okane2syou15": {
+  "text": "では、ずっと収入の高い職業で働き続ければ良いのかというと、そうでもありません。しっかりお金のなる木を育てることが大切です。この考え方が参考になるのは、両学長の『本当の自由を手にいれるお金の大学』という本や両学長のYouTubeです。<br><a href='https://www.youtube.com/watch?v=fTBvrAOyX20' target='_blank'>▶︎ この動画を見る</a>",
+  "background": "haikei2.png",
+  "characters": [],
+  "choices": [
+    {"text": "次に進む", "next": "okane2syou16"} 
+  ]
+},
+
+
+
+  "okane2syou16": {
+    "text": "お金に困らない生活になるべく、まず稼げば良いんでしょ？というと、それはちょっと危ないです。お金よりもまず自分自身が健康である事が一番大事なのです。健康でなければ、働けなくなる場合もありますし、入院になったらお金もなくなります。健康的に過ごす事が一番大事なのです（詳しくは健康のところで）",
+    "background": "haikei2.png",
+    "characters": [
+    ],
+    
+    "choices": [
+      {"text": "次に進む", "next": "okane2syou17"} 
+    ]
+  }, 
+
+  "okane2syou17": {
+    "text": "お金を稼ぐ具体的な方法について、次の章からみてみましょう。",
+    "background": "haikei2.png",
+    "characters": [
+    ],
+    
+    "choices": [
+      {"text": "次の章に進む", "next": "okane3syou"} ,
+      {"text": "お金の目次に戻る", "next": "okane"},
+      {"text": "学習コラムの目次に戻る", "next": "gakusyuu"}
+    ]
+  }, 
+
+
+  "okane3syou": {
+    "text": "３章　失敗しても良いように、初期投資０円で稼げそうなものはないか考えよう",
+    "background": "haikei2.png",
+    "characters": [
+    ],
+    
+    "choices": [
+      {"text": "次に進む", "next": "okane3syou2"} 
+    ]
+  }, 
+
+  "okane3syou2": {
+    "text": "初期投資０円で稼げそうなものってなんでしょうか？まずは、アルバイトがあげられます。（高校生になってから）",
+    "background": "haikei2.png",
+    "characters": [
+    ],
+    
+    "choices": [
+      {"text": "次に進む", "next": "okane3syou3"} 
+    ]
+  }, 
+
+
+  "okane3syou3": {
+    "text": "アルバイトは、自分の時間を売って稼ぐ方法です。社会勉強にもなるでしょう。",
+    "background": "haikei2.png",
+    "characters": [
+    ],
+    
+    "choices": [
+      {"text": "次に進む", "next": "okane3syou4"} 
+    ]
+  }, 
+
+  "okane3syou4": {
+    "text": "では、アルバイトが禁止されている中学生は、どんな稼ぎ方があるでしょうか？",
+    "background": "haikei2.png",
+    "characters": [
+    ],
+    
+    "choices": [
+      {"text": "次に進む", "next": "okane3syou5"} 
+    ]
+  }, 
+
+  "okane3syou5": {
+    "text": "中学生が稼ぐには、両親の許可が必要です。もし許可が降りなかったら学校の勉強や将来なりたい職業になるにはどうしたら良いかなどを調べてみたり聞いてみたりしてください。",
+    "background": "haikei2.png",
+    "characters": [
+    ],
+    
+    "choices": [
+      {"text": "次に進む", "next": "okane3syou6"} 
+    ]
+  }, 
+
+
+  "okane3syou6": {
+    "text": "もし、許可がおりたら。個人的には今学んでいることや趣味の情報発信がおすすめです。",
+    "background": "haikei2.png",
+    "characters": [
+    ],
+    
+    "choices": [
+      {"text": "次に進む", "next": "okane3syou7"} 
+    ]
+  }, 
+
+  "okane3syou7": {
+    "text": "なぜ情報発信が良いのか？みてくれるユーザーが増えれば何もしなくてもお金がもらえる仕組みを手にする事ができるからです。",
+    "background": "haikei2.png",
+    "characters": [
+    ],
+    
+    "choices": [
+      {"text": "次に進む", "next": "okane3syou8"} 
+    ]
+  }, 
+
+  "okane3syou8": {
+    "text": "他にも、動画編集や文章力が上手くなる事で、将来有能な社会人として生活できるようになれるかもしれません。情報発信の質も良くなってくれば、さらに稼ぐ力が伸びてくる可能性があります。",
+    "background": "haikei2.png",
+    "characters": [
+    ],
+    
+    "choices": [
+      {"text": "次に進む", "next": "okane3syou9"} 
+    ]
+  }, 
+
+  "okane3syou9": {
+    "text": "デメリットとしては、稼げるまで時間がかかることです。じっくり取り組み続ける根気強さも大切になってきます。じゃあ、手っ取り早く稼ぐには何があるでしょうか？",
+    "background": "haikei2.png",
+    "characters": [
+    ],
+    
+    "choices": [
+      {"text": "次に進む", "next": "okane3syou10"} 
+    ]
+  }, 
+
+  "okane3syou10": {
+    "text": "それは、不用品をメルカリで売ってみることでしょう。使わなくなった服やおもちゃなどを売ってしまう方法です。",
+    "background": "haikei2.png",
+    "characters": [
+    ],
+    
+    "choices": [
+      {"text": "次に進む", "next": "okane3syou11"} 
+    ]
+  }, 
+
+  "okane3syou11": {
+    "text": "他には、友達や家族とのお願い事やお手伝いでお金をもらう方法もあるでしょう。",
+    "background": "haikei2.png",
+    "characters": [
+    ],
+    
+    "choices": [
+      {"text": "次に進む", "next": "okane3syou12"} 
+    ]
+  }, 
+
+
+  "okane3syou12": {
+    "text": "ただ、中学生のうちは目の前の１万円よりも、将来に３０万円以上稼げるようになるために学習する事の方が重要ではないかと思ってます。よく相談しながら、少しずつ、稼ぐ力をつけていってください。",
+    "background": "haikei2.png",
+    "characters": [
+    ],
+    
+    "choices": [
+      {"text": "次に進む", "next": "okane3syou13"} 
+    ]
+  }, 
+
+
+  "okane3syou13": {
+    "text": "もし、目先の１万円で大金持ちを目指したいなら、投資に回すという選択肢もあります。投資についても両学長の動画や本から学んでみてください。お金のなる木が育ちます。",
+    "background": "haikei2.png",
+    "characters": [
+    ],
+    
+    "choices": [
+      {"text": "次に進む", "next": "okane3syou14"} 
+    ]
+  }, 
+
+  "okane3syou14": {
+    "text": "将来なりたいお仕事がある場合は、どういった勉強が必要なのか。どんな資格が必要なのか調べてみてください。",
+    "background": "haikei2.png",
+    "characters": [
+    ],
+    
+    "choices": [
+      {"text": "次に進む", "next": "okane3syou15"} 
+    ]
+  }, 
+
+  "okane3syou15": {
+    "text": "ただし、注意点が１つだけ。高校生になってから学ぼう、大学に入ってから資格勉強をしよう。これは少し甘いです。将来の目標が明確なら、その勉強を今やってみてその進路に進んでも大丈夫なのか確認しましょう。思ってたより難易度高くて諦めるのか、どうすれば理解できるか挑戦してみるのか。ここまで出来てから自分の進路をどうしていけば良いかを考えてみましょう。",
+    "background": "haikei2.png",
+    "characters": [
+    ],
+    
+    "choices": [
+      {"text": "次に進む", "next": "okane3syou16"} 
+    ]
+  }, 
+
+  "okane3syou16": {
+    "text": "学びは贅沢品です。辛かったらやめても良いです。でも、今頑張ったらどんどん努力できる人間になります。努力したけど出来なかったのか。努力もせず出来なかったのか。努力して出来なかったら、その努力は無駄だったのか？そうではありません。なぜ出来なかったのかを考えて次の一手ができる分、成功の確率が上がるのです。ぜひ、努力して出来なくても、どうしたら出来るか考えてみましょう",
+    "background": "haikei2.png",
+    "characters": [
+    ],
+    
+    "choices": [
+      {"text": "次に進む", "next": "okane3syou17"} 
+    ]
+  }, 
+
+  "okane3syou17": {
+    "text": "もし、学び続けることが好きであれば。ぜひ自分のスキルアップのために色々勉強なさってください。スキルアップして身についたことをNoteやUdemyなどで公開して稼ぐ方法もあるので、スキルを身につけることはとても大事です。中には、地元のおすすめのお店を紹介する記事なども需要があるので、食べ歩きをしながらどのお店が良いと思ったかをNoteに書いてみるのも面白いかもしれません。",
+    "background": "haikei2.png",
+    "characters": [
+    ],
+    
+    "choices": [
+      {"text": "次に進む", "next": "okane3syou18"} 
+    ]
+  }, 
+
+
+  "okane3syou18": {
+    "text": "他にも、お金の稼ぎ方はあるかもしれません。もし興味があれば、AIのチャットGPTなどにも質問してみましょう。ただ、有料になってる情報も怪しいものもあるので注意が必要です。もしそれが本当でも、自分では稼げなかった、なんて事もあり得ます。なので、まずは小さく始めて失敗しても痛くない範囲で始めてみることをおすすめします。",
+    "background": "haikei2.png",
+    "characters": [
+    ],
+    
+    "choices": [
+      {"text": "次に進む", "next": "okane3syou19"} 
+    ]
+  }, 
+
+  "okane3syou19": {
+    "text": "４章では、支出を減らす（節約する）の大切さを話します。収入を増やすのと、お金を節約するのでは、節約の方が簡単です。でも、これが出来てないといくらお金があってもたりなくなります。",
+    "background": "haikei2.png",
+    "characters": [
+    ],
+    
+    "choices": [
+      {"text": "次に進む", "next": "okane4syou"} ,
+      {"text": "学習コラムの目次に戻る", "next": "gakusyuu"} 
+    ]
+  }, 
+
+ "okane4syou": {
+    "text": "４章　支出を減らす事も大事",
+    "background": "haikei2.png",
+    "characters": [
+    ],
+    
+    "choices": [
+      {"text": "次に進む", "next": "okane4syou2"} 
+    
+    ]
+  }, 
+
+ "okane4syou2": {
+    "text": "「お金持ち＝派手にお金を使う人」と思っていませんか？\n\n実は、ほんとうのお金持ちは“お金を増やすこと”や“ムダをなくすこと”にお金と時間を使っているんです。",
+    "background": "haikei2.png",
+    "characters": [
+    ],
+    
+    "choices": [
+      {"text": "次に進む", "next": "okane4syou3"} 
+    
+    ]
+  }, 
+
+"okane4syou3": {
+    "text": "生きていく上で、お金は必要になります。稼げるようになっても、遊ぶ事だけにお金を使ってしまうと、稼いだお金が手元に残らなくなってしまいます。",
+    "background": "haikei2.png",
+    "characters": [
+    ],
+    
+    "choices": [
+      {"text": "次に進む", "next": "okane4syou4"} 
+    
+    ]
+  }, 
+
+"okane4syou4": {
+    "text": "では、どうしたら良いか？　稼いだ一部を投資に回せるだけのお金を確保する考え方が大事です。",
+    "background": "haikei2.png",
+    "characters": [
+    ],
+    
+    "choices": [
+      {"text": "次に進む", "next": "okane4syou5"} 
+    
+    ]
+  }, 
+
+"okane4syou5": {
+    "text": "では、どのように節約して投資に回せば良いのか？今月使ったお金（出費）をノートにメモしてみましょう。",
+    "background": "haikei2.png",
+    "characters": [
+    ],
+    
+    "choices": [
+      {"text": "次に進む", "next": "okane4syou6"} 
+    
+    ]
+  }, 
+
+"okane4syou6": {
+    "text": "そのうちわけで、どこを節約するかを決めましょう。スマホ代、趣味に使ったお金、服、食費、サブスク・・・etc。家賃や電気代、水道代もどのくらいかかっているか家族に聞いてみてもいいでしょう。",
+    "background": "haikei2.png",
+    "characters": [
+    ],
+    
+    "choices": [
+      {"text": "次に進む", "next": "okane4syou7"}
+    
+    ]
+  }, 
+
+"okane4syou7": {
+    "text": "極端にお金を抑えようとすると、働くモチベーションも下がると思うので、コツコツ少しずつの節約から始めてみましょう。家賃やスマホ代、趣味やサブスクなどの固定費を見直すのがおすすめです。",
+    "background": "haikei2.png",
+    "characters": [
+    ],
+    
+    "choices": [
+      {"text": "次に進む", "next": "okane4syou8"} 
+    
+    ]
+  }, 
+
+  "okane4syou8": {
+    "text": "もし可能なら、１週間でどのくらい使うかを決めてお金のやりくりを考えられるといいでしょう。投資に回す分を捻出するにはどうしたら良いかを知りましょう。",
+    "background": "haikei2.png",
+    "characters": [
+    ],
+    
+    "choices": [
+      {"text": "次に進む", "next": "okane4syou9"} 
+    
+    ]
+  }, 
+
+
+  "okane4syou9": {
+    "text": "仮に月５万円を無理なく投資に回せたとしましょう。年利５％と想定すると20年後には元金の1200万に利回り855万円なので約2000万円の資産があるのと同じになります。",
+    "background": "haikei2.png",
+    "characters": [
+    ],
+    
+    "choices": [
+      {"text": "次に進む", "next": "okane4syou10"} 
+    
+    ]
+  }, 
+
+  "okane4syou10": {
+    "text": "月5万円のお金を作れない場合は、節約を心がけるか、稼ぎを増やすためにスキルアップにお金を使うことをおすすめします。読書やyoutubeなどで知識を増やしていきましょう。",
+    "background": "haikei2.png",
+    "characters": [
+    ],
+    
+    "choices": [
+      {"text": "次に進む", "next": "okane4syou11"} 
+    
+    ]
+  }, 
+
+  "okane4syou11": {
+    "text": "ただし、高額なスクールはおすすめしません。詐欺教材の可能性もあります。チャットGPTを活用するだけでもスキルアップは可能になります。色々低予算で試行錯誤してみてください。",
+    "background": "haikei2.png",
+    "characters": [
+    ],
+    
+    "choices": [
+      {"text": "次に進む", "next": "okane4syou12"} 
+    
+    ]
+  }, 
+
+
+  "okane4syou12": {
+    "text": "努力と思わず毎日続けられてる事が才能への道です。やりたいことがなければ、色々やってみて楽しいと思えることをぜひ探してみてください。",
+    "background": "haikei2.png",
+    "characters": [
+    ],
+    
+    "choices": [
+      {"text": "次に進む", "next": "okane4syou13"} 
+    
+    ]
+  }, 
+
+  
+  "okane4syou13": {
+    "text": "失敗しても良いのです。成功するまでなんどもチャレンジしましょう。挑戦する事、失敗した原因を考える、また挑戦してみる。この繰り返しです。",
+    "background": "haikei2.png",
+    "characters": [
+    ],
+    
+    "choices": [
+      {"text": "次に進む", "next": "okane4syou14"} 
+    
+    ]
+  }, 
+
+    "okane4syou14": {
+    "text": "くわしいお金の事について学びたいと思ったら、両学長の動画がおすすめです。<br><a href='https://www.youtube.com/watch?v=fg7ZMuRp5D4&list=PLpwLNivKud-jSHTx8hArrxyUqmLgm1opb'>動画はこちら </a>",
+    "background": "haikei2.png",
+    "characters": [
+    ],
+    
+    "choices": [
+      {"text": "次に進む", "next": "okane4syou14"} 
+    
+    ]
+  }, 
+
+
+
+  "aaa": {
+    "text": "aaa",
+    "background": "haikei2.png",
+    "characters": [
+    ],
+    
+    "choices": [
+      {"text": "次に進む", "next": "okane1syou3"}
+        
+    ]
+  }
+
+
+}
+
+

@@ -1,0 +1,447 @@
+{
+  "kenkou": {
+    "text": "お金よりも健康が大事な理由",
+    "background": "haikei2.png",
+    "characters": [
+    ],
+    
+    "choices": [
+      {"text": "1章　健康的だと、働ける", "next": "kenkou1syou"},
+      {"text": "2章　健康的だと、モテやすくなる", "next": "kenkou2syou"},
+      {"text": "3章　不健康だと、出費が増える", "next": "kenkou3syou"},
+      {"text": "4章　健康的であるために", "next": "kenkou4syou"},
+      {"text": "学習コラムに戻る", "next": "gakusyuu"}      
+    ]
+  }, 
+
+  "kenkou1syou": {
+    "text": "1章　健康的だと、働ける",
+    "background": "haikei2.png",
+    "characters": [
+    ],
+    
+    "choices": [
+      {"text": "次に進む", "next": "kenkou1syou2"}
+        
+    ]
+  },
+
+  "kenkou1syou2": {
+    "text": "当たり前ですが、健康でないとそもそも働いてお金を稼ぐのが大変になります。自分自身の健康を保つ事は、働く上で必須なスキルになります。",
+    "background": "haikei2.png",
+    "characters": [
+    ],
+    
+    "choices": [
+      {"text": "次に進む", "next": "kenkou1syou3"}
+        
+    ]
+  },
+
+  "kenkou1syou3": {
+    "text": "働いて過度なストレスやオーバーワークなどで体調を崩すと、病気につながる危険があります。必要な時は休む事も、仕事を長く続けるためには必要になってきます。",
+    "background": "haikei2.png",
+    "characters": [
+    ],
+    
+    "choices": [
+      {"text": "次に進む", "next": "kenkou1syou4"}        
+    ]
+  },  
+
+
+  "kenkou1syou4": {
+    "text": "なので、オーバーワークにならない範囲で働く、適切に休む。そして仕事を楽しむ。楽しくなるのはずっと続けていないと分からないことも出てくるので、最初は辛いことも多い仕事も多いです。仕事は、他の人がやりたくないことやめんどくさい事を引き受ける事で稼ぐ仕事や、大勢の人を楽しませるサービスをする仕事、専門的な知識が必要でプロに任せたいお仕事など色んな仕事があります。",
+    "background": "haikei2.png",
+    "characters": [
+    ],
+    
+    "choices": [
+      {"text": "次に進む", "next": "kenkou1syou5"}        
+    ]
+  },  
+
+  "kenkou1syou5": {
+    "text": "仕事は、困ってる人を助けたり、人を元気しにしたり幸せにする事です。そんな仕事も健康でないと助けられなかったり、幸せにする力が発揮できなかったりします。仕事のない子供のうちは、学校に通ったり、友達を作ったり、授業を受けたり、遊んだり、色んな事をやってみてください。もし夢があるのなら、将来の夢のために今何をすべきかを家族で相談することが大切です。",
+    "background": "haikei2.png",
+    "characters": [
+    ],
+    
+    "choices": [
+      {"text": "次に進む", "next": "kenkou1syou6"}        
+    ]
+  },  
+
+ "kenkou1syou6": {
+    "text": "嫌な事があったら、どんなところが嫌だったかを相談してみるのもとても大事です。ぜひ、どうしたら良いかを一緒に考えましょう。話はそれましたが、健康的だと働けるについては以上です。次は健康的だとモテる　について説明します。",
+    "background": "haikei2.png",
+    "characters": [
+    ],
+    
+    "choices": [
+      {"text": "2章に進む", "next": "kenkou2syou"},
+      {"text": "健康の目次に戻る", "next": "kenkou"},
+      {"text": "学習コラムの目次に戻る", "next": "gakusyuu"}
+    ]
+  },   
+
+ "kenkou2syou": {
+    "text": "2章　健康的だと、モテやすくなる",
+    "background": "haikei2.png",
+    "characters": [
+    ],
+    
+    "choices": [
+      {"text": "次に進む", "next": "kenkou2syou2"}
+    ]
+  },   
+
+  "kenkou2syou2": {
+    "text": "健康とモテることと、どういう意味があるのでしょうか。",
+    "background": "haikei2.png",
+    "characters": [
+    ],
+    
+    "choices": [
+      {"text": "次に進む", "next": "kenkou2syou3"}
+    ]
+  },   
+ 
+
+  "kenkou2syou3": {
+    "text": "よきパートナーとしてみたり、良い父親（母親）になるためには、生まれてくる子どもも健康的であることを望んでいます。健康である事が良い家庭である第一歩と言えるからです。",
+    "background": "haikei2.png",
+    "characters": [
+    ],
+    
+    "choices": [
+      {"text": "次に進む", "next": "kenkou2syou4"}
+    ]
+  },   
+ 
+
+  "kenkou2syou4": {
+    "text": "とは言っても、美男美女と言えるほど、容姿に力を入れろ、という事でもありません。自己管理が出来ていると思われる、必要最低限でいいのです。",
+    "background": "haikei2.png",
+    "characters": [
+    ],
+    
+    "choices": [
+      {"text": "次に進む", "next": "kenkou2syou5"}
+    ]
+  },   
+ 
+
+  "kenkou2syou5": {
+    "text": "では、必要最低限の容姿とはなんでしょうか？必要最低限の容姿とは、清潔感がある事です。内面的なところでは、明るくポジティブな考え方ができる人もモテやすくなります。",
+    "background": "haikei2.png",
+    "characters": [
+    ],
+    
+    "choices": [
+      {"text": "次に進む", "next": "kenkou2syou6"}
+    ]
+  },   
+ 
+  "kenkou2syou6": {
+    "text": "前向きにとらえるポジティブ思考は、生まれながらに持っています。ネガティブな赤ちゃんなんて見たことありますか？怒られたり叱られたりして自己肯定感が下がった時にネガティブな感情を覚えてしまいます。",
+    "background": "haikei2.png",
+    "characters": [
+    ],
+    
+    "choices": [
+      {"text": "次に進む", "next": "kenkou2syou7"}
+    ]
+  },   
+ 
+  "kenkou2syou7": {
+    "text": "みんな最初はポジティブなのです。自己肯定感を上げるだけでネガティブからポジティブに切り替える事ができます。",
+    "background": "haikei2.png",
+    "characters": [
+    ],
+    
+    "choices": [
+      {"text": "次に進む", "next": "kenkou2syou8"}
+    ]
+  },   
+ 
+  "kenkou2syou8": {
+    "text": "明るく健康で少し容姿も気を付けていれば、モテやすくなります。聞き上手だったりコミュニケーションスキルもさらにあれば言うことなしです。",
+    "background": "haikei2.png",
+    "characters": [
+    ],
+    
+    "choices": [
+      {"text": "次に進む", "next": "kenkou2syou9"}
+    ]
+  },   
+ 
+  "kenkou2syou9": {
+    "text": "コミュニケーションもやり方さえわかれば、誰でも習得できるスキルです。メンタリストのDaiGoさんが詳しく解説している動画もあるので見てみるといいでしょう。",
+    "background": "haikei2.png",
+    "characters": [
+    ],
+    
+    "choices": [
+      {"text": "次に進む", "next": "kenkou2syou10"}
+    ]
+  },   
+ 
+  "kenkou2syou10": {
+    "text": "大人になってくると、年収いくらないと結婚できないなど現実を突きつけられます。大人になってモテたい場合は、収入があるか見る方も増えていきます。",
+    "background": "haikei2.png",
+    "characters": [
+    ],
+    
+    "choices": [
+      {"text": "次に進む", "next": "kenkou2syou11"}
+    ]
+  },   
+ 
+  "kenkou2syou11": {
+    "text": "家族を持つとパートナーや子供などに出費と時間が必要になりますが、それを乗り越えて幸せになる人もいれば、独身の方が幸せに感じる人もいるでしょう。健康的でモテる、でも家族は持ちたくない方は、稼いで夜の店にお金を使ってください。何が幸せかは人によってさまざまです。健康であることで色々な事が出来るので、今のうちに色んな経験をしましょう。",
+    "background": "haikei2.png",
+    "characters": [
+    ],
+    
+    "choices": [
+      {"text": "次の章に進む", "next": "kenkou3syou"},
+      {"text": "学習コラムに戻る", "next": "gakusyuu"},
+      {"text": "トップに戻る", "next": "top"}
+    ]
+  },   
+ 
+  "kenkou3syou": {
+    "text": "3章　不健康だと、出費が増える",
+    "background": "haikei2.png",
+    "characters": [
+    ],
+    
+    "choices": [
+      {"text": "次に進む", "next": "kenkou3syou2"}
+    ]
+  },   
+ 
+ 
+  "kenkou3syou2": {
+    "text": "不健康だと風邪を引きやすくなったり、心の病気になったりと様々です。働く事が出来なくなったり、病院での治療のため、入院にもなったらあっという間にお金が飛んでいきます。",
+    "background": "haikei2.png",
+    "characters": [
+    ],
+    
+    "choices": [
+      {"text": "次に進む", "next": "kenkou3syou3"}
+    ]
+  },   
+  
+  "kenkou3syou3": {
+    "text": "では、どうしたら健康的に過ごすことが出来るでしょうか？　それは、毎日の生活習慣によって健康が保たれるかが変わってきます。",
+    "background": "haikei2.png",
+    "characters": [
+    ],
+    
+    "choices": [
+      {"text": "次に進む", "next": "kenkou3syou4"}
+    ]
+  },   
+  
+  "kenkou3syou4": {
+    "text": "よく運動をして、栄養バランスの良い食事を心がけ、睡眠もしっかりとる。基本的な事ですが、これが出来てない大人も大勢います。",
+    "background": "haikei2.png",
+    "characters": [
+    ],
+    
+    "choices": [
+      {"text": "次に進む", "next": "kenkou3syou5"}
+    ]
+  },   
+  
+  "kenkou3syou5": {
+    "text": "基本が出来ていないと、生活習慣病になるリスクも高くなります。悪い習慣を断ち切り、いい習慣を身に着ける事で、生活習慣を見直して実行する力が必要になります。",
+    "background": "haikei2.png",
+    "characters": [
+    ],
+    
+    "choices": [
+      {"text": "次に進む", "next": "kenkou3syou6"}
+    ]
+  },   
+  
+  
+  "kenkou3syou6": {
+    "text": "１日１日の積み重ねで人生は良くなることも悪くなることもあります。成功者と言われている人ほど、習慣化する力を持ってる方が多いので、健康的な人も多いそうです。",
+    "background": "haikei2.png",
+    "characters": [
+    ],
+    
+    "choices": [
+      {"text": "次に進む", "next": "kenkou3syou7"}
+    ]
+  },   
+  
+  "kenkou3syou7": {
+    "text": "では、習慣化するにはどうしたらいいでしょうか？　１週間のこれまでのスケジュールを確認して、やめてみる事を始めるのがまずは大きな一歩になることが多いです。",
+    "background": "haikei2.png",
+    "characters": [
+    ],
+    
+    "choices": [
+      {"text": "次に進む", "next": "kenkou3syou8"}
+    ]
+  },   
+  
+"kenkou3syou8": {
+    "text": "なぜやめる必要があるのか？　それは、１日は２４時間しかなく、十分な睡眠の時間も確保する必要があるからです。自分の人生を変えていくためには、今やっている事をやめてそこに新しい習慣を入れていく事になります。",
+    "background": "haikei2.png",
+    "characters": [
+    ],
+    
+    "choices": [
+      {"text": "次に進む", "next": "kenkou3syou9"}
+    ]
+  },   
+  
+"kenkou3syou9": {
+    "text": "１日で出来ることは、思っている以上に限られている事に気が付いたでしょうか？健康のために運動する習慣はあるか？バランスの取れた食事を取るには何をしたらいいか。良い睡眠をとるために何時に寝るべきなのか？",
+    "background": "haikei2.png",
+    "characters": [
+    ],
+    
+    "choices": [
+      {"text": "次に進む", "next": "kenkou3syou10"}
+    ]
+  },   
+  
+"kenkou3syou10": {
+    "text": "時間についても、また別のところでお話するので覚えてくださるとうれしいです。健康に気を付ける事も大切なことが伝われば幸いです。",
+    "background": "haikei2.png",
+    "characters": [
+    ],
+    
+    "choices": [
+      {"text": "次の章に進む", "next": "kenkou4syou"},
+      {"text": "学習コラムに戻る", "next": "gakusyuu"},
+      {"text": "トップに戻る", "next": "top"}
+    ]
+  },   
+  
+  "kenkou4syou": {
+    "text": "4章　健康的であるために",
+    "background": "haikei2.png",
+    "characters": [
+    ],
+    
+    "choices": [
+      {"text": "次に進む", "next": "kenkou4syou2"}
+    ]
+  },   
+
+  "kenkou4syou2": {
+    "text": "健康であるためには、３章でも話した通り食事と運動と睡眠です。",
+    "background": "haikei2.png",
+    "characters": [
+    ],
+    
+    "choices": [
+      {"text": "次に進む", "next": "kenkou4syou3"}
+    ]
+  },   
+
+ "kenkou4syou3": {
+    "text": "生活習慣病や、精神的な病は、普段の生活や環境で病気になってしまうことがほとんどです。",
+    "background": "haikei2.png",
+    "characters": [
+    ],
+    
+    "choices": [
+      {"text": "次に進む", "next": "kenkou4syou4"}
+    ]
+  },   
+
+ "kenkou4syou4": {
+    "text": "少しでも異変に感じたら、どうしたら良いか周りに相談したり、医者に聞いてみたりすると良いでしょう。",
+    "background": "haikei2.png",
+    "characters": [
+    ],
+    
+    "choices": [
+      {"text": "次に進む", "next": "kenkou4syou5"}
+    ]
+  },   
+
+ "kenkou4syou5": {
+    "text": "ただし、医者も専門家とはいえ、人によって得意とする事が違ったり、どんな治療が他にあるのかを知らなかったりするケースがあります。",
+    "background": "haikei2.png",
+    "characters": [
+    ],
+    
+    "choices": [
+      {"text": "次に進む", "next": "kenkou4syou6"}
+    ]
+  },   
+
+   "kenkou4syou6": {
+    "text": "医師や周りの意見を聞きながら、どう直していけばいいかは、自分で考えたり、行動をする必要があります。",
+    "background": "haikei2.png",
+    "characters": [
+    ],
+    
+    "choices": [
+      {"text": "次に進む", "next": "kenkou4syou7"}
+    ]
+  },   
+
+   "kenkou4syou7": {
+    "text": "健康的であれば、定年退職後も旅行に行けるような老後を過ごす事も可能かもしれません。それが難しいと思ったら、どうやったら旅行に行けるのかを前もって考える事が大事です。",
+    "background": "haikei2.png",
+    "characters": [
+    ],
+    
+    "choices": [
+      {"text": "次に進む", "next": "kenkou4syou8"}
+    ]
+  },  
+
+     "kenkou4syou8": {
+    "text": "習慣をすぐに変えることは難しいかもしれませんが、初めの一歩を小さくすれば、少しずつ変えていく努力はいつからでも出来るはずです。",
+    "background": "haikei2.png",
+    "characters": [
+    ],
+    
+    "choices": [
+      {"text": "次に進む", "next": "kenkou4syou9"}
+    ]
+  },  
+
+  
+     "kenkou4syou9": {
+    "text": "自分にあった習慣は何か。何をするのが正解か分からないのが人生の難しいところでもあり楽しいところだと思います。私は健康であることがお金よりも大事だと思いました。皆さんはどうでしょうか？",
+    "background": "haikei2.png",
+    "characters": [
+    ],
+    
+    "choices": [
+        {"text": "健康の章　終わり　健康に戻る", "next": "kenkou"},
+      {"text": "学習に戻る", "next": "gakusyuu"},
+        {"text": "最初の画面に戻る", "next": "top"}
+
+    ]
+  },  
+
+
+  "aaa": {
+    "text": "aaa",
+    "background": "haikei2.png",
+    "characters": [
+    ],
+    
+    "choices": [
+      {"text": "次に進む", "next": "okane1syou3"}
+        
+    ]
+  }
+
+
+
+
+}

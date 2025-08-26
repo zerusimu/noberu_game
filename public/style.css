@@ -1,0 +1,119 @@
+/* 背景画像をカバー表示 */
+body {
+  margin: 0;
+  padding: 0;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  font-family: 'Arial', sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  height: 100vh;
+  overflow: hidden; /* ✅ スクロールを防ぐ */
+}
+
+/* ゲーム画面全体 */
+#gameContainer {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  position: relative;
+}
+
+/* 📌 キャラクター画像コンテナ（テキストの上に重ねる） */
+#characterContainer {
+  position: absolute;
+  bottom: 50%;
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: space-between; /* キャラクターを左右に配置 */
+  z-index: 10;
+  padding: 0 5%; /* 端の余白を追加 */
+}
+
+.character {
+  max-height: 40vh;
+  transition: filter 0.3s ease-in-out;
+}
+
+.character:not(.active) {
+  filter: brightness(50%); /* 喋っていないキャラを暗くする */
+}
+.character.left {
+  align-self: flex-start;
+}
+
+.character.center {
+  align-self: center;
+}
+
+.character.right {
+  align-self: flex-end;
+}
+
+
+
+
+
+/* 📌 テキストウィンドウのスタイル調整 */
+#textOverlay {
+  position: absolute;
+  bottom: 50px; /* ✅ メニューとの間を詰める */
+  left: 0; /* ✅ 左端から開始 */
+  right: 0; /* ✅ 右端も固定 */
+  width: auto; /* ✅ 幅を100vwから自動に変更 */
+  max-width: 100%; /* ✅ 横幅制限を解除 */
+  background: rgba(0, 0, 0, 0.7);
+  color: white;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 300px;
+  z-index: 20;
+  transform: none;
+  margin: 0;
+}
+
+#characterName {
+  position: absolute;
+  top: -20px; /* テキストウィンドウの左上 */
+  left: 10px;
+  background: rgba(50, 50, 50, 0.8);
+  padding: 5px 30px;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+/* 🎮 メニューのスタイル修正 */
+#gameMenu {
+  position: absolute; /* ✅ relative → absolute に変更 */
+  bottom: 0; /* ✅ 画面の一番下に固定 */
+  width: 100vw;
+  background: rgba(50, 50, 50, 0.8);
+  display: flex;
+  justify-content: center;
+  padding: 10px 0;
+}
+
+#gameMenu button {
+  background: rgba(255, 255, 255, 0.9);
+  border: none;
+  padding: 8px 15px;
+  margin: 0 5px;
+  cursor: pointer;
+  font-size: 14px;
+  color: black;
+  font-weight: bold;
+}
+
+#gameMenu button:hover {
+  background: rgba(200, 200, 200, 0.9);
+}

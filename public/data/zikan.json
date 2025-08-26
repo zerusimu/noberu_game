@@ -1,0 +1,482 @@
+
+{
+  "zikan": {
+    "text": "時間の使い方",
+    "background": "haikei2.png",
+    "characters": [
+    ],
+    
+    "choices": [
+      {"text": "１章　何もしなくていい時間を作ろう", "next": "zikan1syou"},
+      {"text": "２章　将来に備えるための時間を作ろう", "next": "zikan2syou"},
+      {"text": "３章　緊急だけど誰かに頼めるのなら、頼んでみよう", "next": "zikan3syou"},
+      {"text": "４章　今しか出来ないことを優先してやろう", "next": "zikan4syou"},
+      {"text": "学習コラムに戻る", "next": "gakusyuu"}      
+    ]
+  }, 
+
+  "zikan1syou": {
+    "text": "1章　何もしなくていい時間を作ろう",
+    "background": "haikei2.png",
+    "characters": [
+    ],
+    
+    "choices": [
+      {"text": "次に進む", "next": "zikan1syou2"}
+        
+    ]
+  },
+
+  "zikan1syou2": {
+    "text": "時間の使い方が上手い人は、何もしなくて良い時間を作ることを意識しています。",
+    "background": "haikei2.png",
+    "characters": [
+    ],
+    
+    "choices": [
+      {"text": "次に進む", "next": "zikan1syou3"}
+        
+    ]
+  },
+
+  "zikan1syou3": {
+    "text": "常に忙しくしている人の方が時間を上手く使っている人と思われがちですが、時間に余裕のある生活のほうが理想的なのです。",
+    "background": "haikei2.png",
+    "characters": [
+    ],
+    
+    "choices": [
+      {"text": "次に進む", "next": "zikan1syou4"}        
+    ]
+  },  
+
+
+  "zikan1syou4": {
+    "text": "常に忙しい状態だと、時間に追われて予定通り終わらなかった場合に、予定通り出来なくなる危険があります。余裕を持たせることで、相談や対処などが出来るため余裕は常に持った行動の方が望ましいのです。",
+    "background": "haikei2.png",
+    "characters": [
+    ],
+    
+    "choices": [
+      {"text": "次に進む", "next": "zikan1syou5"}        
+    ]
+  },  
+
+  "zikan1syou5": {
+    "text": "緊急で重要な事は行い、緊急でもなく重要でもないことはあまりやらないようにする。時間をどのように使うのが良いか考えられるとよいでしょう。",
+    "background": "haikei2.png",
+    "characters": [
+    ],
+    
+    "choices": [
+      {"text": "次に進む", "next": "zikan1syou6"}        
+    ]
+  },  
+
+ "zikan1syou6": {
+    "text": "どんな人生にしたいか、時間の使い方でその夢が叶うかどうかも左右します。夢を叶える努力をしなければ現実にはなりません。",
+    "background": "haikei2.png",
+    "characters": [
+    ],
+        "choices": [
+      {"text": "次に進む", "next": "zikan1syou7"}        
+    ]
+  },  
+
+ "zikan1syou7": {
+    "text": "夢を叶えるために、それに取り組む時間を作ることで、理想が叶う可能性があります。では、どうしたら理想は叶うかを次の章で解説します。",
+    "background": "haikei2.png",
+    "characters": [
+    ],
+        "choices": [
+      {"text": "次の章進む", "next": "zikan2syou"},
+      {"text": "時間の一覧に戻る", "next": "zikan"},
+        {"text": "学習コラムに戻る", "next": "gakusyuu"}         
+    ]
+  },  
+
+
+
+
+ "zikan2syou": {
+    "text": "２章　将来に備えるための時間を作ろう",
+    "background": "haikei2.png",
+    "characters": [
+    ],
+    
+    "choices": [
+      {"text": "次に進む", "next": "zikan2syou2"}
+    ]
+  },   
+
+  "zikan2syou2": {
+    "text": "将来どうなりたいか、目標を決めてみましょう。仕事でもプライベートでも、どうなりたいかを決めると良いでしょう。",
+    "background": "haikei2.png",
+    "characters": [
+    ],
+    
+    "choices": [
+      {"text": "次に進む", "next": "zikan2syou3"}
+    ]
+  },   
+ 
+
+  "zikan2syou3": {
+    "text": "そのために、どうやったらその目標が叶うかを逆算して決めていくのを意識すると上手くいきやすいです。",
+    "background": "haikei2.png",
+    "characters": [
+    ],
+    
+    "choices": [
+      {"text": "次に進む", "next": "zikan2syou4"}
+    ]
+  },   
+ 
+
+  "zikan2syou4": {
+    "text": "目標となるゴールを決めて、実際にやってみて、上手く出来るかどうかを体験してみる。向いているかどうかは、やらないとわかりません。もし、苦痛に感じたら別の目標にしてもかまいません。",
+    "background": "haikei2.png",
+    "characters": [
+    ],
+    
+    "choices": [
+      {"text": "次に進む", "next": "zikan2syou5"}
+    ]
+  },   
+ 
+
+  "zikan2syou5": {
+    "text": "今より良くなりたいという願望があるのであれば、毎日コツコツ続けて努力すること。簡単なようでこれが一番難しいです。これを成し遂げた人に成功者としてなった方が多いです。",
+    "background": "haikei2.png",
+    "characters": [
+    ],
+    
+    "choices": [
+      {"text": "次に進む", "next": "zikan2syou6"}
+    ]
+  },   
+ 
+  "zikan2syou6": {
+    "text": "成功者は、ポジティブ思考とネガティブ思考の両方を持っています。現実的かつ努力を続けて未来を良くしようとする考え方が大事なのです。",
+    "background": "haikei2.png",
+    "characters": [
+    ],
+    
+    "choices": [
+      {"text": "次に進む", "next": "zikan2syou7"}
+    ]
+  },     
+ 
+  "zikan2syou7": {
+    "text": "ネガティブ思考のような、待ち合わせの時に、おくれたらどうしよう？と対策する思考も大切になります。また目標に向けて良くなろうとポジティブに考える力も必要になります。",
+    "background": "haikei2.png",
+    "characters": [
+    ],
+    
+    "choices": [
+      {"text": "次に進む", "next": "zikan2syou8"}
+    ]
+  },   
+ 
+  "zikan2syou8": {
+    "text": "理想を現実にするために、どんな事をしていくか明確に決めて努力する。計画性と継続力が必要になります。",
+    "background": "haikei2.png",
+    "characters": [
+    ],
+    
+    "choices": [
+      {"text": "次に進む", "next": "zikan2syou9"}
+    ]
+  },   
+ 
+  "zikan2syou9": {
+    "text": "将来良くなりたければ、やってみて自分に合うかどうか体験してから決める。それから悩んでも遅くはないでしょう。",
+    "background": "haikei2.png",
+    "characters": [
+    ],
+    
+    "choices": [
+      {"text": "次の章に進む", "next": "zikan3syou"},
+      {"text": "学習コラムに戻る", "next": "gakusyuu"},
+      {"text": "トップに戻る", "next": "top"}
+    ]
+  },   
+ 
+  "zikan3syou": {
+    "text": "３章　緊急だけど誰かに頼めるのなら、頼んでみよう",
+    "background": "haikei2.png",
+    "characters": [
+    ],
+    
+    "choices": [
+      {"text": "次に進む", "next": "zikan3syou2"}
+    ]
+  },   
+ 
+ 
+  "zikan3syou2": {
+    "text": "緊急な事でも、他の事をしたいときは誰かにお願いして時間を作るという方法があります。",
+    "background": "haikei2.png",
+    "characters": [
+    ],
+    
+    "choices": [
+      {"text": "次に進む", "next": "zikan3syou3"}
+    ]
+  },   
+  
+  "zikan3syou3": {
+    "text": "全部自分でやれるのが理想ですが、やってみてあわなかったり、体調を崩して出来なくなったり、他に優先したいことができたり。そんな時に頼れる人がいれば頼んでみることができるでしょう。",
+    "background": "haikei2.png",
+    "characters": [
+    ],
+    
+    "choices": [
+      {"text": "次に進む", "next": "zikan3syou4"}
+    ]
+  },   
+  
+  "zikan3syou4": {
+    "text": "全部を背負い込む必要はありません。大谷翔平も投手とバッターはできますが、外野や内野、キャッチャーなどはやっておりません。",
+    "background": "haikei2.png",
+    "characters": [
+    ],
+    
+    "choices": [
+      {"text": "次に進む", "next": "zikan3syou5"}
+    ]
+  },   
+  
+  "zikan3syou5": {
+    "text": "もちろん、全部出来ることにこしたことはありませんが、すべて１流になるというのはとてつもなく難しいです。",
+    "background": "haikei2.png",
+    "characters": [
+    ],
+    
+    "choices": [
+      {"text": "次に進む", "next": "zikan3syou6"}
+    ]
+  },   
+  
+  
+  "zikan3syou6": {
+    "text": "時には頼むことも重要です。自分の人生をよりよくするためには、自己投資してスキルを身につける勉強をすることです。",
+    "background": "haikei2.png",
+    "characters": [
+    ],
+    
+    "choices": [
+      {"text": "次に進む", "next": "zikan3syou7"}
+    ]
+  },   
+  
+  "zikan3syou7": {
+    "text": "経済や政治の勉強やお金の知識、投資の考え方、自由な時間の作り方。これらは人の状況によってやり方も考え方も変わってきます。",
+    "background": "haikei2.png",
+    "characters": [
+    ],
+    
+    "choices": [
+      {"text": "次に進む", "next": "zikan3syou8"}
+    ]
+  },   
+  
+"zikan3syou8": {
+    "text": "より自由な生き方をしたいのなら、大人になった後も勉強をする必要があります。収入もプライベートも両方とも充実させる事は努力次第で可能なのです。",
+    "background": "haikei2.png",
+    "characters": [
+    ],
+    
+    "choices": [
+      {"text": "次に進む", "next": "zikan3syou9"}
+    ]
+  },   
+  
+"zikan3syou9": {
+    "text": "上手く頼み事をして、自分の時間を作り、将来に向けての対策をしていきましょう。もし勉強はしたくなかったら、無理せず暮らす生き方を考えるのも良いでしょう",
+    "background": "haikei2.png",
+    "characters": [
+    ],
+    
+    "choices": [
+      {"text": "次に進む", "next": "zikan3syou10"}
+    ]
+  },   
+  
+"zikan3syou10": {
+    "text": "勉強して成功者に挑戦するか、普通の暮らしでも毎日地道に頑張るか、働きたくないから不労所得が取れるようになる道を行きたいのか。考え方は人それぞれあっていいです。次の章でどうしたらいいか整理して解説します。",
+    "background": "haikei2.png",
+    "characters": [
+    ],
+    
+    "choices": [
+      {"text": "次の章に進む", "next": "zikan4syou"},
+      {"text": "学習コラムに戻る", "next": "gakusyuu"},
+      {"text": "トップに戻る", "next": "top"}
+    ]
+  },   
+  
+  "zikan4syou": {
+    "text": "４章　今しか出来ないことを優先してやろう",
+    "background": "haikei2.png",
+    "characters": [
+    ],
+    
+    "choices": [
+      {"text": "次に進む", "next": "zikan4syou2"}
+    ]
+  },   
+
+  "zikan4syou2": {
+    "text": "自分の将来をよくするために、どんな事をしたらその夢は叶いそうでしょうか？",
+    "background": "haikei2.png",
+    "characters": [
+    ],
+    
+    "choices": [
+      {"text": "次に進む", "next": "zikan4syou3"}
+    ]
+  },   
+
+ "zikan4syou3": {
+    "text": "大切な事は、自分で決めましょう。自分の未来をよりよくするには、自分で行動する以外に方法はありません。",
+    "background": "haikei2.png",
+    "characters": [
+    ],
+    
+    "choices": [
+      {"text": "次に進む", "next": "zikan4syou4"}
+    ]
+  },   
+
+ "zikan4syou4": {
+    "text": "色々本を読んだり、旅行して色んな地域を見て回ったり。大人になったら、遊ぶ時間が限られることもあるので、今しかできない事をするのも大切だと思います。",
+    "background": "haikei2.png",
+    "characters": [
+    ],
+    
+    "choices": [
+      {"text": "次に進む", "next": "zikan4syou5"}
+    ]
+  },   
+
+ "zikan4syou5": {
+    "text": "ひろゆきさんのたとえ話で、好きな話があります。大きな岩を壺に入れて、この壺はいっぱいになったかを聞いていくお話です。",
+    "background": "haikei2.png",
+    "characters": [
+    ],
+    
+    "choices": [
+      {"text": "次に進む", "next": "zikan4syou6"}
+    ]
+  },   
+
+   "zikan4syou6": {
+    "text": "いっぱいになったと答えると、次に砂利を入れます。砂利は岩より小さいので壺に入りました。この壺はもういっぱいか？",
+    "background": "haikei2.png",
+    "characters": [
+    ],
+    
+    "choices": [
+      {"text": "次に進む", "next": "zikan4syou7"}
+    ]
+  },   
+
+   "zikan4syou7": {
+    "text": "いっぱいになったと答えると、今度は砂を入れます。砂利より小さいので壺の中に入ります。では、この壺はもういっぱいでしょうか？",
+    "background": "haikei2.png",
+    "characters": [
+    ],
+    
+    "choices": [
+      {"text": "次に進む", "next": "zikan4syou8"}
+    ]
+  },  
+
+     "zikan4syou8": {
+    "text": "いっぱいになったと答えると、水をいれ始めます。水も壺の中に入っていきました。これで得られた教訓はなんでしょうか？",
+    "background": "haikei2.png",
+    "characters": [
+    ],
+    
+    "choices": [
+      {"text": "次に進む", "next": "zikan4syou9"}
+    ]
+  },  
+
+  
+     "zikan4syou9": {
+    "text": "限界だと思っても、まだ詰め込めるって事でしょうか？　そういう考え方もあるけど、伝えたかったのはそうではないと話が続きます。",
+    "background": "haikei2.png",
+    "characters": [
+    ],
+
+   "choices": [
+      {"text": "次に進む", "next": "zikan4syou10"}
+    ]
+  },  
+
+    "zikan4syou10": {
+    "text": "最初に大きな物をいれないと後からでは入らない。だから後からでは出来ない事は今やった方がいいと伝えたかったようです。",
+    "background": "haikei2.png",
+    "characters": [
+    ],
+
+   "choices": [
+      {"text": "次に進む", "next": "zikan4syou11"}
+    ]
+  },  
+
+    "zikan4syou11": {
+  "text": "子どものころにしか出来ない事、じいさんばあさんからでも出来る事なら子どもの頃しか出来る事をやろう。というお話です。",
+    "background": "haikei2.png",
+    "characters": [
+    ],
+
+   "choices": [
+      {"text": "次に進む", "next": "zikan4syou12"}
+    ]
+  },  
+
+    "zikan4syou12": {
+  "text": "夢や理想をかなえるための行動は、すぐに始めないと基本的には手遅れになります。今を精一杯生きている人のほうが価値ある人間になりやすいです。",
+    "background": "haikei2.png",
+    "characters": [
+    ],
+
+   "choices": [
+      {"text": "次に進む", "next": "zikan4syou13"}
+    ]
+  },  
+
+      "zikan4syou13": {
+    "text": "子どものころにしか出来ない事、じいさんばあさんからでも出来る事なら子どもの頃しか出来る事をやろう。後回しにしていいことは後からでも良いのです。",
+    "background": "haikei2.png",
+    "characters": [
+    ],
+
+    "choices": [
+        {"text": "時間の章終わり　次の章に進む", "next": "zikokeihatu"},
+      {"text": "学習に戻る", "next": "gakusyuu"},
+        {"text": "最初の画面に戻る", "next": "top"}
+
+    ]
+  },  
+
+
+  "aaa": {
+    "text": "aaa",
+    "background": "haikei2.png",
+    "characters": [
+    ],
+    
+    "choices": [
+      {"text": "次に進む", "next": "okane1syou3"}
+        
+    ]
+  }
+
+
+
+
+}
