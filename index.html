@@ -1,11 +1,139 @@
 <!DOCTYPE html>
 <html lang="ja">
 <head>
-  <meta charset="UTF-8">
-  <title>ノベルゲーム</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+    <title>薬屋見習いの冒険</title>
+<link rel="stylesheet" href="/css/style.css">
 </head>
 <body>
-  <h1>Hello, Novel Game!</h1>
-  <script src="main.js"></script>
+    <div id="background"></div> <!-- 📌 背景専用の要素 -->
+    <div id="gameContainer">
+        <!-- キャラクター画像を含む枠 -->
+        <div id="characterContainer">
+            <img id="character" src="" alt="キャラクター">
+                </div>
+            <div id="textOverlay">
+             <div id="characterName"></div> <!-- キャラ名を表示 -->
+                <p id="storyText">読み込み中...</p>
+                <div id="choices"></div>
+        
+        </div>
+<div id="gameMenu">
+    <button onclick="saveGame()">セーブ</button>
+    <button onclick="autoMode()">オート</button>
+    <button onclick="skipText()">スキップ</button>
+    <button onclick="loadGame()">ロード</button>
+</div>
+</div>
+
+ <script>
+ async function loadScene(scene) {
+   try{
+    const response = await fetch(`./data/${scene}.json`);
+ 
+    const storyData = await response.json();
+
+
+
+
+    // 🎨 背景画像の変更
+    if (storyData.background) {
+        const bgDiv = document.getElementById("background");
+        bgDiv.style.backgroundImage  = `url('${location.origin}/images/${storyData.background}')`;
+    }
+
+    // 📝 テキスト更新
+    document.getElementById("storyText").innerHTML = storyData.text;
+
+    // 🎭 キャラクター画像の更新
+    const characterContainer = document.getElementById("characterContainer");
+    characterContainer.innerHTML = ""; // 既存のキャラを削除
+
+ let speakingCharacterName = ""; // 喋っているキャラの名前を格納
+
+    if (storyData.characters) {
+        storyData.characters.forEach(char => {
+            let img = document.createElement("img");
+            img.src = `${location.origin}/characters/${char.image}`;
+            img.classList.add("character"); // キャラクターの共通クラスを追加
+
+            // キャラの位置クラスを追加（"left", "center", "right"）
+            if (char.position === "left") {
+                img.classList.add("left");
+            } else if (char.position === "right") {
+                img.classList.add("right");
+            } else {
+                img.classList.add("center"); // デフォルトは中央
+            }
+
+            if (char.speaking) {
+                img.classList.add("active");
+            speakingCharacterName = char.name || ""; // キャラの名前を取得
+            }
+
+            characterContainer.appendChild(img);
+        });
+    }
+
+ const characterNameDiv = document.getElementById("characterName");
+    characterNameDiv.textContent = speakingCharacterName; // 名前を表示
+    characterNameDiv.style.display = speakingCharacterName ? "block" : "none"; // 名前がない場合は非表示
+updateCharacterContainer();
+
+
+    // 🎮 選択肢を表示
+    const choicesDiv = document.getElementById("choices");
+    choicesDiv.innerHTML = "";
+    (storyData.choices || []).forEach(choice => {
+        let button = document.createElement("button");
+        button.textContent = choice.text;
+        button.onclick = () => loadScene(choice.next);
+        choicesDiv.appendChild(button);
+    });
+}catch (err) {
+        console.error("エラー:", err);
+    }
+}
+
+
+
+function updateCharacterContainer() {
+  const container = document.getElementById("characterContainer");
+  const characters = container.querySelectorAll(".character");
+  container.className = ""; // クラスリセット
+  if (characters.length === 2) {
+    container.classList.add("two");
+  } else if (characters.length >= 3) {
+    container.classList.add("three");
+  }
+}
+
+
+
+
+
+// 📌 セーブ・ロード・オート・スキップの仮実装
+function saveGame() {
+    alert("ゲームをセーブしました！（仮）");
+}
+
+function autoMode() {
+    alert("オートモード開始！（仮）");
+}
+
+function skipText() {
+    alert("スキップモード開始！（仮）");
+}
+
+function loadGame() {
+    alert("ゲームをロードしました！（仮）");
+}
+
+// 🏁 初回ロード
+loadScene("story");
+
+</script>
+
 </body>
 </html>
